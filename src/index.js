@@ -3,8 +3,7 @@ import React from 'react'
 import { render } from 'react-dom'
 import { Provider } from 'react-redux'
 import { 
-  BrowserRouter as Router, 
-  Route 
+  BrowserRouter as Router   
 } from 'react-router-dom'
 
 import App from './containers/App'
@@ -19,8 +18,8 @@ export const store = configureStore()
 
 render(
   <Provider store={store}>
-    <Router>      
-      <Route path="/" component={App}/>
+    <Router>
+        <App/>                  
     </Router>
   </Provider>,
   document.getElementById('root')
