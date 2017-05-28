@@ -1,0 +1,44 @@
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.3.1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+.app-dashboard-sidebar {
+  background-color: #fefefe;
+  height: 100%;
+  overflow-x: visible;
+  overflow-y: auto;
+  z-index: 1;
+  transition: all 0.5s ease;
+  border: 1px solid #000000; }
+  .app-dashboard-sidebar .app-dashboard-open-sidebar, .app-dashboard-sidebar .app-dashboard-close-sidebar {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem; }
+  .app-dashboard-sidebar .app-dashboard-sidebar-close-button {
+    font-size: 14px; }
+  .app-dashboard-sidebar .app-dashboard-sidebar-inner {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto; }
+    .app-dashboard-sidebar .app-dashboard-sidebar-inner .menu > li > a {
+      align-items: center; }
+  .app-dashboard-sidebar .fa.large {
+    font-size: 1.5rem;
+    width: 40px; }
+
+.reveal-for-medium .app-dashboard-open-sidebar {
+  display: none; }
+
+.app-dashboard-sidebar-footer {
+  background: rgba(42, 57, 79, 0.8);
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  position: absolute;
+  width: 100%; }
+
+.app-dashboard-open-sidebar {
+  text-align: center; }

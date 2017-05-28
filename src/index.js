@@ -9,7 +9,6 @@ import {
 import App from './containers/App'
 
 import registerServiceWorker from './registerServiceWorker';
-import './index.css';
 
 import configureStore from './store/configureStore'
 
