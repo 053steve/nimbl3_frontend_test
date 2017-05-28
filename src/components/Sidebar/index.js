@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import './Sidebar.css'
 
 
 class Sidebar extends Component {
@@ -8,7 +8,7 @@ class Sidebar extends Component {
   render() {
     
     return  (
-      <div>        
+      <div id="Sidebar">        
         <h1>Sidebar</h1>
       </div>
 
