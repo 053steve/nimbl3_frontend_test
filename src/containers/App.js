@@ -8,25 +8,18 @@ import './App.css'
 
 
 
-class App extends Component {
-  
+class App extends Component {  
 
   render() {
     
     return  (
 
       <div className="app-dashboard shrink-medium">
-        <TopNav/>
-
         <div className="app-dashboard-body off-canvas-wrapper">
           <Sidebar/>
           <Main/>                    
         </div>
       </div>
-
-
-
-
     );
   }
 }

@@ -1,39 +1,79 @@
 import React, { Component } from 'react'
+import { connect } from 'react-redux'
+// import { changeBaz } from '../../actions'
+import PropTypes from 'prop-types'
+import onClickOutside from 'react-onclickoutside' //module for listening to outside clicks
+import { toggle_menu } from '../../actions'
+
+const sidebarShinkClass = 'app-dashboard-sidebar position-left off-canvas off-canvas-absolute reveal-for-medium'
+const sidebarExpandClass= 'app-dashboard-sidebar position-left off-canvas off-canvas-absolute reveal-for-medium is-transition-push is-open'
+
 
 class Sidebar extends Component {
-  
+  constructor(props) {
+    super(props);
+    this.state = {      
+      sideBarClass: sidebarShinkClass
+    }
+  }  
+
+  componentWillReceiveProps = nextProps => {
+        
+    if (nextProps.menuSidebarCollapsed !== this.props.menuSidebarCollapsed) {
+      let { menuSidebarCollapsed } = nextProps
+      this.toggleMenu(menuSidebarCollapsed)
+    }
+  }
+
+
+
+  handleClickOutside = evt => {
+    let { dispatch, menuSidebarCollapsed } = this.props            
+    if(!menuSidebarCollapsed) {
+      dispatch(toggle_menu())
+    }
+  }
+
+  toggleMenu = isCollapse => {  
+    (isCollapse) ? this.setState({sideBarClass: sidebarShinkClass }) : this.setState({sideBarClass: sidebarExpandClass })
+  }
+    
+
 
   render() {
+    let { sideBarClass } = this.state   
+    
     
     return  (
-      
-      <div id="app-dashboard-sidebar" className="app-dashboard-sidebar position-left off-canvas off-canvas-absolute reveal-for-medium" data-off-canvas>
-        <div className="app-dashboard-sidebar-title-area">
-          <div className="app-dashboard-close-sidebar">
-            <h3 className="app-dashboard-sidebar-block-title">Items</h3>
-            
-            <button id="close-sidebar" data-app-dashboard-toggle-shrink className="app-dashboard-sidebar-close-button show-for-medium" aria-label="Close menu" type="button">
-              <span aria-hidden="true"><a href="#"><i className="large fa fa-angle-double-left"></i></a></span>
-            </button>
+      <div id="sidebar">
+        <div id="app-dashboard-sidebar" className={sideBarClass} data-off-canvas>
+          <div className="app-dashboard-sidebar-title-area">
+            <div className="app-dashboard-close-sidebar">
+              <h3 className="app-dashboard-sidebar-block-title">Items</h3>
+              
+              <button id="close-sidebar" data-app-dashboard-toggle-shrink className="app-dashboard-sidebar-close-button show-for-medium" aria-label="Close menu" type="button">
+                <span aria-hidden="true"><a href="#"><i className="large fa fa-angle-double-left"></i></a></span>
+              </button>
+            </div>
+            <div className="app-dashboard-open-sidebar">
+              <button id="open-sidebar" data-app-dashboard-toggle-shrink className="app-dashboard-open-sidebar-button show-for-medium" aria-label="open menu" type="button">
+                <span aria-hidden="true"><a href="#"><i className="large fa fa-angle-double-right"></i></a></span>
+              </button>
+            </div>
           </div>
-          <div className="app-dashboard-open-sidebar">
-            <button id="open-sidebar" data-app-dashboard-toggle-shrink className="app-dashboard-open-sidebar-button show-for-medium" aria-label="open menu" type="button">
-              <span aria-hidden="true"><a href="#"><i className="large fa fa-angle-double-right"></i></a></span>
-            </button>
+          <div className="app-dashboard-sidebar-inner">
+            <ul className="menu vertical">
+              <li><a href="#" className="is-active">
+                <i className="large fa fa-institution"></i><span className="app-dashboard-sidebar-text">Buildings</span>
+              </a></li>
+              <li><a>
+                <i className="large fa fa-hourglass"></i><span className="app-dashboard-sidebar-text">Time</span>
+              </a></li>
+              <li><a>
+                <i className="large fa fa-industry"></i><span className="app-dashboard-sidebar-text">Industry</span>
+              </a></li>            
+            </ul>
           </div>
-        </div>
-        <div className="app-dashboard-sidebar-inner">
-          <ul className="menu vertical">
-            <li><a href="#" className="is-active">
-              <i className="large fa fa-institution"></i><span className="app-dashboard-sidebar-text">Buildings</span>
-            </a></li>
-            <li><a>
-              <i className="large fa fa-hourglass"></i><span className="app-dashboard-sidebar-text">Time</span>
-            </a></li>
-            <li><a>
-              <i className="large fa fa-industry"></i><span className="app-dashboard-sidebar-text">Industry</span>
-            </a></li>            
-          </ul>
         </div>
       </div>
 
@@ -42,5 +82,20 @@ class Sidebar extends Component {
   }
 }
 
+Sidebar.propTypes = {  
+  dispatch: PropTypes.func.isRequired,  
+}
 
-export default Sidebar;
+
+
+function mapStateToProps(state) {  
+  const { sidebar } = state
+  const { menuSidebarCollapsed } = sidebar
+  
+  return {
+    menuSidebarCollapsed
+  }
+}
+
+export default connect(mapStateToProps)(onClickOutside(Sidebar))
+

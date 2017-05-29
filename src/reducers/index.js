@@ -2,25 +2,34 @@ import {
     combineReducers
 } from 'redux'
 import {    
-    CHANGE_BAZ
+    MENU_OPEN,
+    MENU_CLOSE
 } from '../actions'
 
-function app(state = {}, action) {    
+
+function sidebar(state = {    
+    menuSidebarCollapsed: true
+
+}, action) {
+    
     switch (action.type) {
-        case CHANGE_BAZ:
-            return {
-                ...state,
-                baz: action.payload,
-            };
+        case MENU_OPEN:            
+            return Object.assign({}, state, {                
+                menuSidebarCollapsed: false
+            }) 
+        case MENU_CLOSE:
+            return Object.assign({}, state, {                
+                menuSidebarCollapsed: true
+            }) 
         default:
             return state
     }
+
 }
 
 
-
 const rootReducer = combineReducers({    
-    app    
+    sidebar    
 })
 
 

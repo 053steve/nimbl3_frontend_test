@@ -6067,8 +6067,7 @@ a.thumbnail {
   overflow-x: visible;
   overflow-y: auto;
   z-index: 1;
-  transition: all 0.5s ease;
-  border: 1px solid #000000; }
+  transition: all 0.5s ease; }
   .app-dashboard-sidebar .app-dashboard-open-sidebar, .app-dashboard-sidebar .app-dashboard-close-sidebar {
     align-items: baseline;
     display: flex;
@@ -6110,7 +6109,6 @@ a.thumbnail {
   transition: all 0.5s ease;
   overflow-y: auto;
   flex: 1 1 0;
-  padding: 20px;
   background-color: #fefefe; }
 
 body {

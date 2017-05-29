@@ -9,7 +9,7 @@ $border1: 1px solid #000000;
   overflow-y: auto;
   z-index: 1;
   transition: all $offcanvas-transition-length $offcanvas-transition-timing;
-  border: $border1;
+  // border: $border1;
 
 
   .app-dashboard-open-sidebar, .app-dashboard-close-sidebar{
