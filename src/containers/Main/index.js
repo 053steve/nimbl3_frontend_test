@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import { connect } from 'react-redux'
-// import { changeBaz } from '../../actions'
 import Test from '../Test'
 import Order from '../Order'
 import TopNav from '../../components/Top-Nav'

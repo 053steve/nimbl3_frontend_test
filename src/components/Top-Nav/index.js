@@ -35,6 +35,4 @@ TopNav.propTypes = {
 
 
 
-// export default TopNav;
-
 export default connect()(TopNav)
