@@ -59,7 +59,7 @@ class Sidebar extends Component {
       <div id="app-dashboard-sidebar" className={`app-dashboard-sidebar position-left off-canvas off-canvas-absolute reveal-for-medium ${sideBarClass}`} data-off-canvas>
         <div className="app-dashboard-sidebar-title-area">
           <div className="app-dashboard-close-sidebar">
-            <h3 className="app-dashboard-sidebar-block-title">Items</h3>
+            <h3 className="app-dashboard-sidebar-block-title">Sidebar</h3>
           </div>
           <div className="app-dashboard-open-sidebar">
             <button id="open-sidebar" className="app-dashboard-open-sidebar-button show-for-medium" onClick={this.sideBarMenuEvent.bind(this)} aria-label="open menu" type="button">

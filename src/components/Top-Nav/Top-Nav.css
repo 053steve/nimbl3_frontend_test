@@ -8,15 +8,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #2c3840;
   height: 55px;
   width: 100%;
-  flex: 0 0 55px; }
+  flex: 0 0 55px;
+  border: 1px solid #0a0a0a; }
   .app-dashboard-top-nav-bar .menu-icon {
-    vertical-align: text-bottom; }
+    vertical-align: text-bottom;
+    background: #0a0a0a;
+    border: 1px solid black; }
+    .app-dashboard-top-nav-bar .menu-icon:after {
+      color: #0a0a0a; }
 
 .app-dashboard-logo {
-  color: #fefefe;
+  color: #0a0a0a;
   text-transform: uppercase;
   font-weight: bold; }
 

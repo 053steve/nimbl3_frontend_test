@@ -15,16 +15,24 @@ class TopNav extends Component {
     
     return  (
       
-      <div className="row expanded app-dashboard-top-nav-bar ">
-        <div className="columns medium-2">
-          <button data-toggle="app-dashboard-sidebar" className="menu-icon hide-for-medium" onClick={this.navtopMenuEvent.bind(this)}></button>
-          <a className="app-dashboard-logo">Foundation</a>
-        </div>        
-        <div className="columns shrink app-dashboard-top-bar-actions">
-          <button href="#" className="button hollow">Logout</button>
-          <a href="#" height="30" width="30" alt=""><i className="fa fa-info-circle"></i></a>
-        </div>
-      </div>
+      <div className="row expanded app-dashboard-top-nav-bar flex-container">        
+        <div className="columns flex-child-grow wireframe-box small-10">
+
+          <button data-toggle="app-dashboard-sidebar" className="menu-icon hide-for-medium" onClick={this.navtopMenuEvent.bind(this)}></button>          
+          <div className="columns flex-child-grow wireframe-box small-4 small-offset-8 hide-for-small-only">
+            <select>
+              <option value="husker">Husker</option>
+              <option value="starbuck">Starbuck</option>
+              <option value="hotdog">Hot Dog</option>
+              <option value="apollo">Apollo</option>
+            </select>
+          </div>   
+          
+        </div>                
+        <div className="columns flex-child-shrink wireframe-box small-2">          
+          Name
+        </div>                
+      </div>      
     );
   }
 }

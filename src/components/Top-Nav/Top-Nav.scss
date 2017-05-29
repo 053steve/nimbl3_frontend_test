@@ -7,17 +7,26 @@ $app-dashboard-top-nav-height: 55px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: $app-dashboard-top-nav-color;
+  // background: $app-dashboard-top-nav-color;
   height: $app-dashboard-top-nav-height;
   width: 100%;
   flex: 0 0 $app-dashboard-top-nav-height;
+  border: 1px solid $black;  
   .menu-icon {
     vertical-align: text-bottom;
+    background: $black;
+    border: 1px solid black;
+
+    &:after {
+        color: $black;
+    }
   }
+
+
 }
 
 .app-dashboard-logo {
-  color: $white;
+  color: $black;
   text-transform: uppercase;
   font-weight: bold;
 }
