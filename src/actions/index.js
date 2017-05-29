@@ -32,13 +32,10 @@ export function toggle_menu() {
   return (dispatch, getState) => {
     let state = getState()
     let { menuSidebarCollapsed } = state.sidebar
-    if(menuSidebarCollapsed) {
-      console.log('open menu')
+    if(menuSidebarCollapsed) {      
       dispatch(menu_open())
-    } else {
-      console.log('close menu')
+    } else {      
       dispatch(menu_close())
-      
     }
     
   }

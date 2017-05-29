@@ -37,7 +37,12 @@ class Sidebar extends Component {
   toggleMenu = isCollapse => {  
     (isCollapse) ? this.setState({sideBarClass: sidebarShinkClass }) : this.setState({sideBarClass: sidebarExpandClass })
   }
-    
+  
+  sideBarMenuEvent = () => {    
+    this.props.dispatch(toggle_menu())
+  }
+
+
 
 
   render() {
@@ -50,13 +55,9 @@ class Sidebar extends Component {
           <div className="app-dashboard-sidebar-title-area">
             <div className="app-dashboard-close-sidebar">
               <h3 className="app-dashboard-sidebar-block-title">Items</h3>
-              
-              <button id="close-sidebar" data-app-dashboard-toggle-shrink className="app-dashboard-sidebar-close-button show-for-medium" aria-label="Close menu" type="button">
-                <span aria-hidden="true"><a href="#"><i className="large fa fa-angle-double-left"></i></a></span>
-              </button>
             </div>
             <div className="app-dashboard-open-sidebar">
-              <button id="open-sidebar" data-app-dashboard-toggle-shrink className="app-dashboard-open-sidebar-button show-for-medium" aria-label="open menu" type="button">
+              <button id="open-sidebar" className="app-dashboard-open-sidebar-button show-for-medium" onClick={this.sideBarMenuEvent.bind(this)} aria-label="open menu" type="button">
                 <span aria-hidden="true"><a href="#"><i className="large fa fa-angle-double-right"></i></a></span>
               </button>
             </div>
@@ -83,14 +84,13 @@ class Sidebar extends Component {
 }
 
 Sidebar.propTypes = {  
-  dispatch: PropTypes.func.isRequired,  
+  dispatch: PropTypes.func.isRequired  
 }
 
 
 
-function mapStateToProps(state) {  
-  const { sidebar } = state
-  const { menuSidebarCollapsed } = sidebar
+function mapStateToProps(state) {    
+  const { menuSidebarCollapsed } = state.sidebar
   
   return {
     menuSidebarCollapsed
@@ -98,4 +98,3 @@ function mapStateToProps(state) {
 }
 
 export default connect(mapStateToProps)(onClickOutside(Sidebar))
-

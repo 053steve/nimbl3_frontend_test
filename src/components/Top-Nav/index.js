@@ -4,25 +4,9 @@ import { connect } from 'react-redux'
 import { toggle_menu } from '../../actions'
 
 class TopNav extends Component {  
-
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //     menuSidebarCollapsed: true,
-      
-  //   }
-  // }
-
-  componentDidMount() {
-    const { dispatch } = this.props
     
-  }
 
-  componentWillUpdate(nextProps, nextState) {
-    console.log('next props')
-  }
-
-  testButton() {    
+  navtopMenuEvent = () => {    
     this.props.dispatch(toggle_menu())
   }
 
@@ -33,7 +17,7 @@ class TopNav extends Component {
       
       <div className="row expanded app-dashboard-top-nav-bar ">
         <div className="columns medium-2">
-          <button data-toggle="app-dashboard-sidebar" className="menu-icon hide-for-medium" onClick={this.testButton.bind(this)}></button>
+          <button data-toggle="app-dashboard-sidebar" className="menu-icon hide-for-medium" onClick={this.navtopMenuEvent.bind(this)}></button>
           <a className="app-dashboard-logo">Foundation</a>
         </div>        
         <div className="columns shrink app-dashboard-top-bar-actions">

@@ -14,24 +14,7 @@ import {
 
 class Main extends Component {  
 
-  // componentWillMount() {
-  //   console.log(this.props)
-  //   console.log(this.state)
-  // }
-
-  componentWillReceiveProps(nextProps) {
-    
-    // console.log(nextProps)
-    // if (nextProps.changeBaz !== this.props.changeBaz) {
-    //   const { dispatch, selectedReddit } = nextProps
-    //   dispatch(fetchPostsIfNeeded(selectedReddit))
-    // }
-  }
-
-  componentWillUpdate(nextProps, nextState) {
-    // console.log('next props')
-  }
-
+  
   render() {
     
     return  (      
@@ -44,14 +27,5 @@ class Main extends Component {
   }
 }
 
-// function mapStateToProps(state) {  
-//   const { changeBaz } = state
-  
-//   return {
-//     changeBaz
-//   }
-// }
 
-// export default connect(mapStateToProps)(Main)
-
-export default connect()(Main)
+export default Main
