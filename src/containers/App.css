@@ -3259,16 +3259,16 @@ table {
   margin-bottom: 1rem;
   border-radius: 0; }
   thead, tbody, tfoot {
-    border: 1px solid #f2f2f2;
+    border: 1px solid #fafafa;
     background-color: #FFFFFF; }
   caption {
     padding: 0.5rem 0.625rem 0.625rem;
     font-weight: bold; }
   thead {
-    background: #f9f9f9;
+    background: #fcfcfc;
     color: #0a0a0a; }
   tfoot {
-    background: #f2f2f2;
+    background: #fafafa;
     color: #0a0a0a; }
   thead tr, tfoot tr {
     background: transparent; }
@@ -3280,12 +3280,12 @@ table {
     padding: 0.5rem 0.625rem 0.625rem; }
   tbody tr:nth-child(even) {
     border-bottom: 0;
-    background-color: #f2f2f2; }
+    background-color: #fafafa; }
   table.unstriped tbody {
     background-color: #FFFFFF; }
     table.unstriped tbody tr {
       border-bottom: 0;
-      border-bottom: 1px solid #f2f2f2;
+      border-bottom: 1px solid #fafafa;
       background-color: #FFFFFF; }
 
 @media screen and (max-width: 63.9375em) {
@@ -3306,16 +3306,16 @@ table.scroll {
   overflow-x: auto; }
 
 table.hover thead tr:hover {
-  background-color: #f4f4f4; }
+  background-color: #f7f7f7; }
 
 table.hover tfoot tr:hover {
-  background-color: #ededed; }
+  background-color: whitesmoke; }
 
 table.hover tbody tr:hover {
   background-color: #fafafa; }
 
 table.hover:not(.unstriped) tr:nth-of-type(even):hover {
-  background-color: #ededed; }
+  background-color: whitesmoke; }
 
 .table-scroll {
   overflow-x: auto; }
@@ -6187,6 +6187,32 @@ a.thumbnail {
 
 #productlist-wrapper {
   margin-top: 14px; }
+  #productlist-wrapper table#productlist thead {
+    background-color: #ffffff; }
+    #productlist-wrapper table#productlist thead th {
+      text-transform: uppercase;
+      font-size: 8px;
+      font-weight: bold;
+      color: #626272; }
+  #productlist-wrapper table#productlist tbody {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 11px;
+    color: #8899AA; }
+    #productlist-wrapper table#productlist tbody .sku {
+      color: #64707C;
+      font-size: 12px; }
+    #productlist-wrapper table#productlist tbody .qty .icon {
+      height: 17px;
+      width: 17px; }
+    #productlist-wrapper table#productlist tbody .price-set-alert a {
+      font-size: 11px;
+      color: #CD171A;
+      text-decoration: underline; }
+    #productlist-wrapper table#productlist tbody .remove-item a {
+      font-size: 10px;
+      color: #626272;
+      text-decoration: underline; }
 
 #remarks-wrapper {
   margin-top: 14px; }
@@ -6303,7 +6329,7 @@ body {
 .cards {
   background-color: #FFFFFF;
   border-radius: 3px;
-  border: 1px solid rgba(173, 179, 185, 0.51); }
+  border: 1px solid rgba(201, 201, 201, 0.69); }
 
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   .app-dashboard.shrink-medium .app-dashboard-close-sidebar, .app-dashboard.shrink-medium .app-dashboard-sidebar-text {

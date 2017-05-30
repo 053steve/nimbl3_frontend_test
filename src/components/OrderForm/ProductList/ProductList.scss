@@ -1,7 +1,57 @@
 #productlist-wrapper {
   margin-top: 14px;
 
-  #productlist {
+  table#productlist {
+
+    // border-collapse: collapse;
+
+    thead {
+      background-color: #ffffff;
+
+      th {
+        text-transform: uppercase;
+        font-size: 8px;
+        font-weight: bold;
+        color: #626272;
+      }
+    } 
+
+    tbody {
+      font-family: Montserrat;
+      font-weight: 300;
+      font-size: 11px;
+      color: #8899AA;
+
+      .sku {
+        color: #64707C;
+        font-size: 12px;
+      }
+
+      .qty {
+        .icon {
+          height: 17px;
+          width: 17px;
+        }
+      }
+
+      .price-set-alert {
+        a {
+          font-size: 11px;
+          color: #CD171A;  
+          text-decoration: underline;
+        }
+
+      }
+
+      .remove-item {
+        a {
+          font-size: 10px;
+          color: #626272;  
+          text-decoration: underline;
+        }
+        
+      }
+    }
 
   }
 }
