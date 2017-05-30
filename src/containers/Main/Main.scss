@@ -1,9 +1,18 @@
 @import "foundation-sites/scss/foundation";
+@import "../_settings.scss";
 
 .app-dashboard-body-content {
   transition: all $offcanvas-transition-length $offcanvas-transition-timing;
   overflow-y: auto;
   flex: 1 1 0;  
-  background-color: $white;
+  background-color: $base-grey;
 }
+
+.page-wrapper {
+  padding-left: 24.63px;
+  padding-right: 24.63px;
+  padding-top: 102px;
+}
+
+
 

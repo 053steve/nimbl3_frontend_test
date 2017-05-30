@@ -18,8 +18,10 @@ class Main extends Component {
     return  (      
       <div className="app-dashboard-body-content off-canvas-content" data-off-canvas-content>
         <TopNav/>
-        <Route exact path="/" component={Order} />
-        <Route path="/test" component={Test} />
+        <div className="page-wrapper">        
+          <Route exact path="/" component={Order} />
+          <Route path="/test" component={Test} />
+        </div>
       </div>
     );
   }

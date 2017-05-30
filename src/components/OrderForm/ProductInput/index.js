@@ -6,7 +6,11 @@ class ProductInput extends Component {
   render() {
     
     return  (
-        <div className="columns wireframe-box small-12"> Order Product Input</div>      
+        <div id="productinput-wrapper" className="columns small-12">
+            <div id="productinput" className="cards">
+                Add Product
+            </div> 
+        </div>      
     );
   }
 }

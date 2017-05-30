@@ -144,7 +144,8 @@ module.exports = {
           /\.jpe?g$/,
           /\.png$/,
           /\.scss$/,
-          /\.svg$/,                    
+          /\.svg$/,          
+          
         ],
         loader: require.resolve('file-loader'),
         options: {

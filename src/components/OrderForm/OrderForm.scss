@@ -1,0 +1,25 @@
+@import './OrderInfo/OrderInfo.scss';
+@import './ProductInput/ProductInput.scss';
+@import './ProductList/ProductList.scss';
+@import './Remarks/Remarks.scss';
+@import './Calculator/Calculator.scss';
+
+.container {
+  max-width: 1193px;
+}
+
+.order-title {
+  div {
+    font-family: Montserrat;
+    font-weight: 300;
+    line-height: 29px;
+    font-size: 24px;    
+    color: #6C5E73;
+
+    span.title {
+      color: #6C5E73; 
+      opacity: 0.2;
+      font-size: inherit;
+    }
+  }
+}

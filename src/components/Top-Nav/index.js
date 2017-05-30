@@ -15,11 +15,11 @@ class TopNav extends Component {
     
     return  (
       
-      <div className="row expanded app-dashboard-top-nav-bar flex-container">        
-        <div className="columns flex-child-grow wireframe-box small-10">
+      <div className="row expanded app-dashboard-top-nav-bar flex-container cards">        
+        <div className="columns flex-child-grow small-10">
 
           <button data-toggle="app-dashboard-sidebar" className="menu-icon hide-for-medium" onClick={this.navtopMenuEvent.bind(this)}></button>          
-          <div className="columns flex-child-grow wireframe-box small-4 small-offset-8 hide-for-small-only">
+          <div className="columns flex-child-grow small-4 small-offset-8 hide-for-small-only">
             <select>
               <option value="husker">Husker</option>
               <option value="starbuck">Starbuck</option>

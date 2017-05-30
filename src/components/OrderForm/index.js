@@ -8,23 +8,26 @@ import Calculator from './Calculator'
 class OrderForm extends Component {
   render() {
     return (
-      <div>
-        <div className="row">        
-            <h2>Orders/ TN SO 000015</h2>
+      <div className="container">
+        <div className="row expanded">                  
+          <div className="order-title">
+            <div><span className="title">Orders/ </span>TN SO 000015</div>
+          </div>
+            
         </div>
-        <div className="row">        
+        <div className="row expanded">        
           <OrderInfo/>
         </div>
-        <div className="row">        
+        <div className="row expanded">        
           <ProductInput/>
         </div>
-        <div className="row">        
+        <div className="row expanded">        
           <ProductList/>
         </div>
-        <div className="row">        
+        <div className="row expanded">        
           <Remarks/>          
         </div>
-        <div className="row">        
+        <div className="row expanded">        
           <Calculator/>
         </div>
       </div>

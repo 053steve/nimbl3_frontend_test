@@ -1,0 +1,85 @@
+// My custom settings and overides
+
+$fa-font-path: "../../node_modules/font-awesome/fonts"; //font file module path
+
+@font-face {
+  font-family: 'Montserrat-Black';
+  src: url('../assets/fonts/Montserrat-Black.otf');    
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../assets/fonts/Montserrat-Bold.ttf');    
+}
+
+@font-face {
+  font-family: 'Montserrat-ExtraBold';
+  src: url('../assets/fonts/Montserrat-ExtraBold.otf');    
+}
+
+@font-face {
+  font-family: 'Montserrat-Hairline';
+  src: url('../assets/fonts/Montserrat-Hairline.otf');    
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../assets/fonts/Montserrat-Regular.ttf');    
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url('../assets/fonts/Montserrat-SemiBold.otf');    
+}
+
+@font-face {
+  font-family: 'Montserrat-UltraLight';
+  src: url('../assets/fonts/Montserrat-UltraLight.otf');    
+}
+//-------------------------------------------------------
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/Montserrat-Regular.ttf');
+  font-weight: 300;    
+}
+
+@font-face {
+  font-family: 'Montserrat';  
+  src: url('../assets/fonts/Montserrat-SemiBold.otf');      
+  font-weight: 600;    
+}
+
+@font-face {
+  font-family: 'Montserrat';  
+  src: url('../assets/fonts/Montserrat-Bold.ttf');    
+  font-weight: bold;    
+}
+
+
+
+
+$body-font-family: 'Montserrat-Regular', Helvetica, Roboto, Arial, sans-serif !default;
+$base-grey: #f4f7F8;
+$base : #702283;
+$white: #FFFFFF;
+
+.button {
+    background-color: #8899AA;
+    height: 44px;
+    width: 140px;
+    border-radius: 5px;
+    border: 0px;
+    font-family: Montserrat;
+    color: #FFFFFF;
+    font-weight: 300;
+    padding: 1em 1em;
+}
+
+span {
+  font-family: 'Montserrat';  
+  font-weight: 300;    
+  font-size: 12px;
+  color: #8899AA;
+  line-height: 16px;
+}

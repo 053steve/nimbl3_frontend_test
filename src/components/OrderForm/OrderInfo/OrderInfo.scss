@@ -1,0 +1,35 @@
+#orderinfo-wrapper {
+  margin-top: 36px;
+
+  
+  #orderinfo-inputs {
+    height: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+    span {
+      line-height: 20px;
+      #orderinfo-from {
+        span {
+          font-size: 16px;
+          color: #626272;
+          line-height: 21px;
+          font-weight: bold;  
+        }
+      }      
+
+      #orderinfo-number {
+          span {
+            font-family: Montserrat;
+            font-weight: 600;
+            color: #8899AA;
+          }
+      }
+    }
+  }  
+}
+
+
+

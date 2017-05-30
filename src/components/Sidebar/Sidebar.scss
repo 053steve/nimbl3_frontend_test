@@ -3,7 +3,7 @@
 $border1: 1px solid #000000;
 
 .app-dashboard-sidebar {
-  background-color: $white;
+  background-color: $base;
   height: 100%;
   overflow-x: visible;
   overflow-y: auto;
@@ -24,9 +24,9 @@ $border1: 1px solid #000000;
   }
 
   .app-dashboard-sidebar-inner {
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
+    // height: 100%;
+    // overflow-x: hidden;
+    // overflow-y: auto;
     .menu > li > a {
       align-items: center;
     }
