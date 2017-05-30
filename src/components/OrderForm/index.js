@@ -10,7 +10,7 @@ class OrderForm extends Component {
     return (
       <div className="container">
         <div className="row expanded">                  
-          <div className="order-title">
+          <div className="order-title columns small-12">
             <div><span className="title">Orders/ </span>TN SO 000015</div>
           </div>
             

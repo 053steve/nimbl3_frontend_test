@@ -60,6 +60,18 @@ span {
   color: #8899AA;
   line-height: 16px; }
 
+.main-font, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 11px;
+  color: #8899AA; }
+
+.main-bold-font, #calculator-wrapper #calculator, #calculator-wrapper #calculator label {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 11px;
+  color: #626272; }
+
 /**
  * Foundation for Sites by ZURB
  * Version 6.3.1
@@ -6194,28 +6206,54 @@ a.thumbnail {
       font-size: 8px;
       font-weight: bold;
       color: #626272; }
-  #productlist-wrapper table#productlist tbody {
-    font-family: Montserrat;
-    font-weight: 300;
+  #productlist-wrapper table#productlist tbody .sku {
+    color: #64707C;
+    font-size: 12px; }
+  #productlist-wrapper table#productlist tbody .qty .icon {
+    height: 17px;
+    width: 17px; }
+  #productlist-wrapper table#productlist tbody .price-set-alert a {
     font-size: 11px;
-    color: #8899AA; }
-    #productlist-wrapper table#productlist tbody .sku {
-      color: #64707C;
-      font-size: 12px; }
-    #productlist-wrapper table#productlist tbody .qty .icon {
-      height: 17px;
-      width: 17px; }
-    #productlist-wrapper table#productlist tbody .price-set-alert a {
-      font-size: 11px;
-      color: #CD171A;
-      text-decoration: underline; }
-    #productlist-wrapper table#productlist tbody .remove-item a {
-      font-size: 10px;
-      color: #626272;
-      text-decoration: underline; }
+    color: #CD171A;
+    text-decoration: underline; }
+  #productlist-wrapper table#productlist tbody .remove-item a {
+    font-size: 10px;
+    color: #626272;
+    text-decoration: underline; }
 
 #remarks-wrapper {
   margin-top: 14px; }
+  #remarks-wrapper label {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 300;
+    color: #333333; }
+    #remarks-wrapper label textarea#remarks {
+      line-height: 17px;
+      font-size: 11px;
+      height: 82.96px; }
+
+#calculator-wrapper {
+  margin-bottom: 18px; }
+  #calculator-wrapper #calculator {
+    padding: 10px 8px 26px 16px; }
+    #calculator-wrapper #calculator .total-label {
+      font-size: 14px; }
+    #calculator-wrapper #calculator .right-value {
+      color: #8899AA;
+      font-size: 12px;
+      text-align: right; }
+      #calculator-wrapper #calculator .right-value .highlight {
+        color: #626272;
+        font-size: 18px; }
+      #calculator-wrapper #calculator .right-value .right-value-box {
+        border-radius: 4px;
+        border: 1px solid #8899AA;
+        height: 28px;
+        color: #C9C9C9;
+        padding: 7px 12px 6px 17px;
+        text-align: center; }
 
 .container {
   max-width: 1193px; }
@@ -6297,6 +6335,18 @@ span {
   font-size: 12px;
   color: #8899AA;
   line-height: 16px; }
+
+.main-font, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 11px;
+  color: #8899AA; }
+
+.main-bold-font, #calculator-wrapper #calculator, #calculator-wrapper #calculator label {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 11px;
+  color: #626272; }
 
 .app-dashboard-body-content {
   transition: all 0.5s ease;

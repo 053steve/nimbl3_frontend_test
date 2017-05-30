@@ -65,6 +65,18 @@ span {
   color: #8899AA;
   line-height: 16px; }
 
+.main-font {
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 11px;
+  color: #8899AA; }
+
+.main-bold-font {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 11px;
+  color: #626272; }
+
 .app-dashboard-body-content {
   transition: all 0.5s ease;
   overflow-y: auto;
