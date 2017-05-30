@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import iconPlus from '../../../assets/icons/icon_plus.svg';
 
 class ProductInput extends Component {  
     
@@ -7,9 +8,10 @@ class ProductInput extends Component {
     
     return  (
         <div id="productinput-wrapper" className="columns small-12">
-            <div id="productinput" className="cards">
-                Add Product
-            </div> 
+            <div className="input-container">
+              <input type="text" id="productinput" className="cards" placeholder="Add Products"/> 
+              <img src={iconPlus} className="icon plus-icon" alt="plus-icon"/>
+            </div>
         </div>      
     );
   }

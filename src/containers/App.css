@@ -60,17 +60,29 @@ span {
   color: #8899AA;
   line-height: 16px; }
 
-.main-font, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
+.main-font, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #productinput, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
   font-family: Montserrat;
   font-weight: 300;
   font-size: 11px;
   color: #8899AA; }
 
-.main-bold-font, #calculator-wrapper #calculator, #calculator-wrapper #calculator label {
+.main-bold-font, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label, #calculator-wrapper #calculator, #calculator-wrapper #calculator label {
   font-family: Montserrat;
   font-weight: bold;
   font-size: 11px;
   color: #626272; }
+
+div.vertical-line {
+  width: 1px;
+  /* Line width */
+  background-color: black;
+  /* Line color */
+  height: 100%;
+  /* Override in-line if you want specific height. */
+  float: left;
+  /* Causes the line to float to left of content. 
+    You can instead use position:absolute or display:inline-block
+    if this fits better with your design */ }
 
 /**
  * Foundation for Sites by ZURB
@@ -6191,11 +6203,37 @@ a.thumbnail {
         font-family: Montserrat;
         font-weight: 600;
         color: #8899AA; }
+    #orderinfo-wrapper #orderinfo-inputs .orderinfo-select {
+      text-align: center; }
+      #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select {
+        border-radius: 4px;
+        border: 1px solid #C9C9C9;
+        padding-left: 16px; }
+  #orderinfo-wrapper #order-actions {
+    padding-top: 19px; }
+    #orderinfo-wrapper #order-actions a.back {
+      font-family: Montserrat;
+      font-size: 14px;
+      color: #626272;
+      margin-top: 12px; }
+    #orderinfo-wrapper #order-actions a.button {
+      color: white; }
 
 #productinput-wrapper {
   margin-top: 17px; }
-  #productinput-wrapper #productinput {
-    height: 50px; }
+  #productinput-wrapper .input-container {
+    position: relative;
+    padding: 0;
+    margin: 0; }
+    #productinput-wrapper .input-container #productinput {
+      height: 50px;
+      padding-left: 35px; }
+    #productinput-wrapper .input-container .plus-icon {
+      position: absolute;
+      bottom: 14px;
+      left: 10px;
+      width: 20px;
+      height: 20px; }
 
 #productlist-wrapper {
   margin-top: 14px; }
@@ -6336,17 +6374,29 @@ span {
   color: #8899AA;
   line-height: 16px; }
 
-.main-font, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
+.main-font, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #productinput, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
   font-family: Montserrat;
   font-weight: 300;
   font-size: 11px;
   color: #8899AA; }
 
-.main-bold-font, #calculator-wrapper #calculator, #calculator-wrapper #calculator label {
+.main-bold-font, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label, #calculator-wrapper #calculator, #calculator-wrapper #calculator label {
   font-family: Montserrat;
   font-weight: bold;
   font-size: 11px;
   color: #626272; }
+
+div.vertical-line {
+  width: 1px;
+  /* Line width */
+  background-color: black;
+  /* Line color */
+  height: 100%;
+  /* Override in-line if you want specific height. */
+  float: left;
+  /* Causes the line to float to left of content. 
+    You can instead use position:absolute or display:inline-block
+    if this fits better with your design */ }
 
 .app-dashboard-body-content {
   transition: all 0.5s ease;

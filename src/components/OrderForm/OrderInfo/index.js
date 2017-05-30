@@ -17,34 +17,34 @@ class OrderInfo extends Component {
                     <div id="orderinfo-from"><span>CPF Saraburi</span></div>
                     <div id="orderinfo-location"><span>Highway 2, Kaeng Khoi Saraburi Thailand</span></div>
                     <div id="orderinfo-number"><span>+66 087 348 79 34</span></div>  
-                  </span>
-                  
-                  
+                  </span>                  
+
+                </div>                
+                <div className="columns orderinfo-select">
+                  <label> Type
+                    <select placeholder="Retailers">
+                      <option value="" selected disabled>Retailers</option>
+                      <option value="starbuck">Starbuck</option>
+                      <option value="hotdog">Hot Dog</option>
+                      <option value="apollo">Apollo</option>
+                    </select>
+                  </label>                  
                 </div>
-                <div className="columns ">
-                  <label>Select Box
+
+                <div className="columns orderinfo-select">
+                  <label>Owned By
                     <select>
-                      <option value="husker">Husker</option>
+                      <option value="" selected disabled>Tom Hanks</option>
                       <option value="starbuck">Starbuck</option>
                       <option value="hotdog">Hot Dog</option>
                       <option value="apollo">Apollo</option>
                     </select>
                   </label>
                 </div>
-                <div className="columns ">
-                  <label>Select Box
+                <div className="columns orderinfo-select">
+                  <label>Status
                     <select>
-                      <option value="husker">Husker</option>
-                      <option value="starbuck">Starbuck</option>
-                      <option value="hotdog">Hot Dog</option>
-                      <option value="apollo">Apollo</option>
-                    </select>
-                  </label>
-                </div>
-                <div className="columns ">
-                  <label>Select Box
-                    <select>
-                      <option value="husker">Husker</option>
+                      <option value="" selected disabled>Pending</option>
                       <option value="starbuck">Starbuck</option>
                       <option value="hotdog">Hot Dog</option>
                       <option value="apollo">Apollo</option>
@@ -56,8 +56,13 @@ class OrderInfo extends Component {
             </div>
           </div>
           <div id="order-actions" className="columns small-12 medium-3"> 
-            <a href="#" className="custom-button-class">Back</a>
-            <a href="#" className="button">Update Order</a>
+              <div className="row align-spaced">
+                <a href="#" className="back column small-3">Back</a>
+                <a href="#" className="button column small-7">Update Order</a>
+              </div>
+              
+            
+            
           </div>
         </div>
       </div>

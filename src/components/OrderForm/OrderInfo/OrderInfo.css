@@ -17,3 +17,14 @@
         font-family: Montserrat;
         font-weight: 600;
         color: #8899AA; }
+    #orderinfo-wrapper #orderinfo-inputs .orderinfo-select {
+      text-align: center; }
+  #orderinfo-wrapper #order-actions {
+    padding-top: 19px; }
+    #orderinfo-wrapper #order-actions a.back {
+      font-family: Montserrat;
+      font-size: 14px;
+      color: #626272;
+      margin-top: 12px; }
+    #orderinfo-wrapper #order-actions a.button {
+      color: white; }

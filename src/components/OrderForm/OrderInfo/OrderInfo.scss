@@ -28,8 +28,38 @@
           }
       }
     }
+
+    .orderinfo-select {
+      text-align: center;
+
+      label {
+        @extend .main-bold-font;
+
+        select {
+          @extend .main-font;
+          border-radius: 4px;
+          border: 1px solid #C9C9C9;
+          padding-left: 16px
+        }
+      }      
+    }
+
   }  
+
+  #order-actions {
+    padding-top: 19px;
+    a.back {
+      font-family: Montserrat; 
+      font-size: 14px;
+      color: #626272;
+      margin-top: 12px;
+
+    }
+
+    a.button {
+      color: white;
+    }
+
+
+  }
 }
-
-
-
