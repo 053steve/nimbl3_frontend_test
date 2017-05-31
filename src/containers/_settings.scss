@@ -63,6 +63,7 @@ $body-font-family: 'Montserrat-Regular', Helvetica, Roboto, Arial, sans-serif !d
 $base-grey: #f4f7F8;
 $base : #702283;
 $white: #FFFFFF;
+$purple-light: #D18EE2;
 
 $table-color-scale: 2%; //for even table rows
 
@@ -93,6 +94,13 @@ span {
   color: #8899AA;
 }
 
+.main-semi-font {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 11px;
+  color: #626272;
+}
+
 .main-bold-font {
   font-family: Montserrat;
   font-weight: bold;
@@ -100,11 +108,11 @@ span {
   color: #626272;
 }
 
-div.vertical-line{
-  width: 1px; /* Line width */
-  background-color: black; /* Line color */
-  height: 100%; /* Override in-line if you want specific height. */
-  float: left; /* Causes the line to float to left of content. 
-    You can instead use position:absolute or display:inline-block
-    if this fits better with your design */
-}
+// div.vertical-line{
+//   width: 1px; /* Line width */
+//   background-color: black; /* Line color */
+//   height: 100%; /* Override in-line if you want specific height. */
+//   float: left; /* Causes the line to float to left of content. 
+//     You can instead use position:absolute or display:inline-block
+//     if this fits better with your design */
+// }

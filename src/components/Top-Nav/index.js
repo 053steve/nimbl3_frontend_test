@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { toggle_menu } from '../../actions'
+// import $ from 'jquery'
 
 class TopNav extends Component {  
     
@@ -10,27 +11,34 @@ class TopNav extends Component {
     this.props.dispatch(toggle_menu())
   }
 
+  // componentDidMount = () => {
+  //   $(document).foundation()
+  // }
+
 
   render() {
     
     return  (
       
-      <div className="row expanded app-dashboard-top-nav-bar flex-container cards">        
-        <div className="columns flex-child-grow small-10">
+      <div className="row expanded app-dashboard-top-nav-bar flex-container cards top-bar">        
 
+        <div className="columns flex-child-grow small-10">
+          
           <button data-toggle="app-dashboard-sidebar" className="menu-icon hide-for-medium" onClick={this.navtopMenuEvent.bind(this)}></button>          
-          <div className="columns flex-child-grow small-4 small-offset-8 hide-for-small-only">
+          <div className="columns flex-child-grow small-4 small-offset-8 hide-for-small-only top-nav-select">
+            
             <select>
-              <option value="husker">Husker</option>
-              <option value="starbuck">Starbuck</option>
-              <option value="hotdog">Hot Dog</option>
-              <option value="apollo">Apollo</option>
+              <option  value="" selected disabled>English (US)</option>
+              <option value="">Starbuck</option>
+              <option value="">Hot Dog</option>
+              <option value="">Apollo</option>
             </select>
           </div>   
           
         </div>                
-        <div className="columns flex-child-shrink wireframe-box small-2">          
-          Name
+        <div className="columns flex-child-shrink small-2 top-nav-dropdown">          
+          Hello Steve
+          
         </div>                
       </div>      
     );
@@ -44,3 +52,4 @@ TopNav.propTypes = {
 
 
 export default connect()(TopNav)
+1
