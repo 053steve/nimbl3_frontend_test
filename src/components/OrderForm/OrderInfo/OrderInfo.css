@@ -95,6 +95,12 @@ span {
   .input_focus .plus-icon {
     transform: rotate(45deg); }
 
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #89a transparent transparent; }
+
+.button:hover, .button:focus {
+  background-color: #5b707d; }
+
 /**
  * Foundation for Sites by ZURB
  * Version 6.3.1

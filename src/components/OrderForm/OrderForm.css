@@ -95,6 +95,12 @@ span {
   .input_focus .plus-icon {
     transform: rotate(45deg); }
 
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #89a transparent transparent; }
+
+.button:hover, .button:focus {
+  background-color: #5b707d; }
+
 /**
  * Foundation for Sites by ZURB
  * Version 6.3.1
@@ -260,6 +266,12 @@ span {
   .input_focus .plus-icon {
     transform: rotate(45deg); }
 
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #89a transparent transparent; }
+
+.button:hover, .button:focus {
+  background-color: #5b707d; }
+
 #productinput-wrapper {
   margin-top: 17px; }
   #productinput-wrapper .input-container {
@@ -372,6 +384,12 @@ span {
   z-index: 3; }
   .input_focus .plus-icon {
     transform: rotate(45deg); }
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #89a transparent transparent; }
+
+.button:hover, .button:focus {
+  background-color: #5b707d; }
 
 #productlist-wrapper {
   margin-top: 14px; }
@@ -498,6 +516,12 @@ span {
   .input_focus .plus-icon {
     transform: rotate(45deg); }
 
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #89a transparent transparent; }
+
+.button:hover, .button:focus {
+  background-color: #5b707d; }
+
 #remarks-wrapper {
   margin-top: 14px; }
   #remarks-wrapper label {
@@ -607,6 +631,12 @@ span {
   z-index: 3; }
   .input_focus .plus-icon {
     transform: rotate(45deg); }
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #89a transparent transparent; }
+
+.button:hover, .button:focus {
+  background-color: #5b707d; }
 
 #calculator-wrapper {
   margin-bottom: 18px; }

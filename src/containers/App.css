@@ -96,6 +96,12 @@ span {
   .input_focus .plus-icon {
     transform: rotate(45deg); }
 
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #89a transparent transparent; }
+
+.button:hover, .button:focus {
+  background-color: #5b707d; }
+
 /**
  * Foundation for Sites by ZURB
  * Version 6.3.1
@@ -6199,6 +6205,12 @@ span {
   .input_focus .plus-icon {
     transform: rotate(45deg); }
 
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #89a transparent transparent; }
+
+.button:hover, .button:focus {
+  background-color: #5b707d; }
+
 .app-dashboard-top-nav-bar {
   display: flex;
   align-items: center;
@@ -6389,6 +6401,12 @@ span {
   .input_focus .plus-icon {
     transform: rotate(45deg); }
 
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #89a transparent transparent; }
+
+.button:hover, .button:focus {
+  background-color: #5b707d; }
+
 .app-dashboard-sidebar {
   background-color: #702283;
   height: 100%;
@@ -6552,6 +6570,12 @@ span {
   z-index: 3; }
   .input_focus .plus-icon {
     transform: rotate(45deg); }
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #89a transparent transparent; }
+
+.button:hover, .button:focus {
+  background-color: #5b707d; }
 
 /**
  * Foundation for Sites by ZURB
@@ -6718,6 +6742,12 @@ span {
   .input_focus .plus-icon {
     transform: rotate(45deg); }
 
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #89a transparent transparent; }
+
+.button:hover, .button:focus {
+  background-color: #5b707d; }
+
 #productinput-wrapper {
   margin-top: 17px; }
   #productinput-wrapper .input-container {
@@ -6830,6 +6860,12 @@ span {
   z-index: 3; }
   .input_focus .plus-icon {
     transform: rotate(45deg); }
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #89a transparent transparent; }
+
+.button:hover, .button:focus {
+  background-color: #5b707d; }
 
 #productlist-wrapper {
   margin-top: 14px; }
@@ -6956,6 +6992,12 @@ span {
   .input_focus .plus-icon {
     transform: rotate(45deg); }
 
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #89a transparent transparent; }
+
+.button:hover, .button:focus {
+  background-color: #5b707d; }
+
 #remarks-wrapper {
   margin-top: 14px; }
   #remarks-wrapper label {
@@ -7065,6 +7107,12 @@ span {
   z-index: 3; }
   .input_focus .plus-icon {
     transform: rotate(45deg); }
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #89a transparent transparent; }
+
+.button:hover, .button:focus {
+  background-color: #5b707d; }
 
 #calculator-wrapper {
   margin-bottom: 18px; }
@@ -7206,6 +7254,12 @@ span {
   .input_focus .plus-icon {
     transform: rotate(45deg); }
 
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #89a transparent transparent; }
+
+.button:hover, .button:focus {
+  background-color: #5b707d; }
+
 #footer-container {
   height: 66px;
   background-color: #4c1367; }
@@ -7312,6 +7366,12 @@ span {
   z-index: 3; }
   .input_focus .plus-icon {
     transform: rotate(45deg); }
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #89a transparent transparent; }
+
+.button:hover, .button:focus {
+  background-color: #5b707d; }
 
 .app-dashboard-body-content {
   transition: all 0.5s ease;
