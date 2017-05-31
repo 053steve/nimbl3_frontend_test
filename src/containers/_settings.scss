@@ -65,6 +65,8 @@ $base : #702283;
 $white: #FFFFFF;
 $purple-light: #D18EE2;
 $purple-dark: #4C1367;
+$remove-grey: #626272;
+$danger-red: #CD171A;
 
 $table-color-scale: 2%; //for even table rows
 
@@ -127,4 +129,10 @@ span {
 
 .input_focus {
   z-index: 3;
+
+  .plus-icon {
+      transform: rotate(45deg);
+    }
 }
+
+

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Test from '../Test'
 import Order from '../Order'
 import TopNav from '../../components/Top-Nav'
+import Footer from '../../components/Footer'
 
 import {
   Route,
@@ -22,6 +23,8 @@ class Main extends Component {
           <Route exact path="/" component={Order} />
           <Route path="/test" component={Test} />
         </div>
+        <Footer/>
+
       </div>
     );
   }

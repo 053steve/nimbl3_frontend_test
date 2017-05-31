@@ -13,27 +13,40 @@ class OrderForm extends Component {
           <div className="order-title columns small-12 hide-for-small-only">
             <div><span className="title">Orders/ </span>TN SO 000015</div>
           </div>
-            
         </div>
-        <div className="row expanded">
-          
+
+        
+        <div className="row expanded">          
           <OrderInfo/>
         </div>
+
+        <div className="row expanded show-for-small-only">          
+          <Calculator/>
+        </div>
+
         <div className="row expanded">        
           <ProductInput/>
         </div>
+
+        <div className="row expanded show-for-small-only">        
+          <Remarks/>    
+        </div>        
+
         <div className="row expanded">        
           <ProductList/>
         </div>
-        <div className="row expanded">        
+
+        <div className="row expanded hide-for-small-only">        
           <Remarks/>          
         </div>
-        <div className="row expanded">        
+
+        <div className="row expanded hide-for-small-only">        
           <Calculator/>
         </div>
+
       </div>
     );
   }
 }
 
-export default OrderForm;
+export default OrderForm

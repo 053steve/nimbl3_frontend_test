@@ -60,7 +60,6 @@ class Sidebar extends Component {
   }
   
   sideBarMenuEvent = () => { 
-    console.log('bar pressed');   
     this.props.dispatch(toggle_menu())
   }
 
@@ -87,8 +86,7 @@ class Sidebar extends Component {
         </div>
         <div className="app-dashboard-sidebar-inner">
           <ul className="menu vertical dropdown">
-            {this.props.sidebarButtons.map(function(obj) {
-              let dropMenu = ''
+            {this.props.sidebarButtons.map(function(obj) {              
               let isActive = ''
               let rows = []
               

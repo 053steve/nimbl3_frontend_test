@@ -92,6 +92,8 @@ span {
 
 .input_focus {
   z-index: 3; }
+  .input_focus .plus-icon {
+    transform: rotate(45deg); }
 
 #productinput-wrapper {
   margin-top: 17px; }

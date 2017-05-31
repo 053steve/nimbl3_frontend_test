@@ -1,4 +1,5 @@
 @import '../../../containers/_settings.scss';
+@import "foundation-sites/scss/foundation";
 
 #orderinfo-wrapper {
   margin-top: 36px;
@@ -100,6 +101,9 @@
       font-size: 14px;
       color: #626272;
       margin-top: 12px;
+      &:hover {
+        color: lighten(#626272, 20%);
+      }
 
     }
 

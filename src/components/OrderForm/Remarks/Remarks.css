@@ -92,6 +92,8 @@ span {
 
 .input_focus {
   z-index: 3; }
+  .input_focus .plus-icon {
+    transform: rotate(45deg); }
 
 #remarks-wrapper {
   margin-top: 14px; }

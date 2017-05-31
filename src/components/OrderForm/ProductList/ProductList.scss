@@ -37,8 +37,12 @@
       .price-set-alert {
         a {
           font-size: 11px;
-          color: #CD171A;  
+          color: $danger-red;  
           text-decoration: underline;
+
+          &:hover {
+            color: lighten($danger-red, 20%)
+          }
         }
 
       }
@@ -46,8 +50,12 @@
       .remove-item {
         a {
           font-size: 10px;
-          color: #626272;  
+          color: $remove-grey;  
           text-decoration: underline;
+
+          &:hover {
+            color: lighten($remove-grey, 20%)
+          }
         }
         
       }
