@@ -3,7 +3,9 @@ import {
 } from 'redux'
 import {    
     MENU_OPEN,
-    MENU_CLOSE
+    MENU_CLOSE,
+    INPUT_FOCUS,
+    INPUT_UNFOCUS
 } from '../actions'
 
 
@@ -27,9 +29,30 @@ function sidebar(state = {
 
 }
 
+function textInput(state = {    
+    inputFocusStatus: false
+
+}, action) {
+    
+    switch (action.type) {
+        case INPUT_FOCUS:            
+            return Object.assign({}, state, {                
+                inputFocusStatus: true
+            }) 
+        case INPUT_UNFOCUS:
+            return Object.assign({}, state, {                
+                inputFocusStatus: false
+            }) 
+        default:
+            return state
+    }
+
+}
+
 
 const rootReducer = combineReducers({    
-    sidebar    
+    sidebar,
+    textInput    
 })
 
 

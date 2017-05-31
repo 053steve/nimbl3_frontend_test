@@ -13,6 +13,8 @@ import foundation from 'foundation-sites'
 const sidebarShrinkClass = 'shrink-medium'
 const sidebarExpandClass = 'shrink-large'
 
+const windowOverlayClass = 'overlay'
+
 
 
 class App extends Component {
@@ -20,17 +22,30 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {      
-      shrinkerClass: sidebarShrinkClass
+      shrinkerClass: sidebarShrinkClass,
+      overlayClass: ''     
     }
   }  
 
   componentWillReceiveProps = nextProps => {
-        
+    console.log("yo");
+    
     if (nextProps.menuSidebarCollapsed !== this.props.menuSidebarCollapsed) {
       let { menuSidebarCollapsed } = nextProps
       this.toggleMenu(menuSidebarCollapsed)
     }
+
+
+    if (nextProps.inputFocusStatus !== this.props.inputFocusStatus) {
+      let { inputFocusStatus } = nextProps
+      this.overlayWindow(inputFocusStatus)
+    }
   }
+
+  overlayWindow = isOverlay => {
+    (isOverlay) ? this.setState({overlayClass: windowOverlayClass }) : this.setState({overlayClass: '' })
+  }
+
 
   toggleMenu = isCollapse => {  
     (isCollapse) ? this.setState({shrinkerClass: sidebarShrinkClass }) : this.setState({shrinkerClass: sidebarExpandClass })
@@ -41,12 +56,13 @@ class App extends Component {
   }
 
   render() {
-    let { shrinkerClass } = this.state
+    let { shrinkerClass, overlayClass} = this.state
     return  (
       <div className={`app-dashboard ${shrinkerClass}`}>
         <div className="app-dashboard-body off-canvas-wrapper">
+          <div className={overlayClass}></div> 
           <Sidebar/>
-          <Main/>                    
+          <Main/>
         </div>
       </div>
     );
@@ -60,9 +76,11 @@ App.propTypes = {
 
 function mapStateToProps(state) {    
   const { menuSidebarCollapsed } = state.sidebar
+  const { inputFocusStatus } = state.textInput
   
   return {
-    menuSidebarCollapsed
+    menuSidebarCollapsed,
+    inputFocusStatus
   }
 }
 

@@ -83,6 +83,17 @@ span {
   border-left: 6px solid #65B32E;
   border-radius: 0 17px 17px 0; }
 
+.overlay {
+  height: 100%;
+  background-color: #191919;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  opacity: 0.5; }
+
+.input_focus {
+  z-index: 3; }
+
 /**
  * Foundation for Sites by ZURB
  * Version 6.3.1
@@ -6173,6 +6184,17 @@ span {
   border-left: 6px solid #65B32E;
   border-radius: 0 17px 17px 0; }
 
+.overlay {
+  height: 100%;
+  background-color: #191919;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  opacity: 0.5; }
+
+.input_focus {
+  z-index: 3; }
+
 .app-dashboard-top-nav-bar {
   display: flex;
   align-items: center;
@@ -6335,6 +6357,17 @@ span {
   border-left: 6px solid #65B32E;
   border-radius: 0 17px 17px 0; }
 
+.overlay {
+  height: 100%;
+  background-color: #191919;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  opacity: 0.5; }
+
+.input_focus {
+  z-index: 3; }
+
 .app-dashboard-sidebar {
   background-color: #702283;
   height: 100%;
@@ -6486,6 +6519,17 @@ span {
   border-left: 6px solid #65B32E;
   border-radius: 0 17px 17px 0; }
 
+.overlay {
+  height: 100%;
+  background-color: #191919;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  opacity: 0.5; }
+
+.input_focus {
+  z-index: 3; }
+
 #orderinfo-wrapper {
   margin-top: 36px; }
   #orderinfo-wrapper #orderinfo-inputs {
@@ -6605,6 +6649,17 @@ span {
   border-left: 6px solid #65B32E;
   border-radius: 0 17px 17px 0; }
 
+.overlay {
+  height: 100%;
+  background-color: #191919;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  opacity: 0.5; }
+
+.input_focus {
+  z-index: 3; }
+
 #productinput-wrapper {
   margin-top: 17px; }
   #productinput-wrapper .input-container {
@@ -6704,6 +6759,17 @@ span {
   background-color: transparent;
   border-left: 6px solid #65B32E;
   border-radius: 0 17px 17px 0; }
+
+.overlay {
+  height: 100%;
+  background-color: #191919;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  opacity: 0.5; }
+
+.input_focus {
+  z-index: 3; }
 
 #productlist-wrapper {
   margin-top: 14px; }
@@ -6813,6 +6879,17 @@ span {
   border-left: 6px solid #65B32E;
   border-radius: 0 17px 17px 0; }
 
+.overlay {
+  height: 100%;
+  background-color: #191919;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  opacity: 0.5; }
+
+.input_focus {
+  z-index: 3; }
+
 #remarks-wrapper {
   margin-top: 14px; }
   #remarks-wrapper label {
@@ -6909,6 +6986,17 @@ span {
   background-color: transparent;
   border-left: 6px solid #65B32E;
   border-radius: 0 17px 17px 0; }
+
+.overlay {
+  height: 100%;
+  background-color: #191919;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  opacity: 0.5; }
+
+.input_focus {
+  z-index: 3; }
 
 #calculator-wrapper {
   margin-bottom: 18px; }
@@ -7034,6 +7122,17 @@ span {
   background-color: transparent;
   border-left: 6px solid #65B32E;
   border-radius: 0 17px 17px 0; }
+
+.overlay {
+  height: 100%;
+  background-color: #191919;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  opacity: 0.5; }
+
+.input_focus {
+  z-index: 3; }
 
 .app-dashboard-body-content {
   transition: all 0.5s ease;

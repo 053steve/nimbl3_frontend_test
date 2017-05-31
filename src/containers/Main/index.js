@@ -16,7 +16,7 @@ class Main extends Component {
   render() {
     
     return  (      
-      <div className="app-dashboard-body-content off-canvas-content" data-off-canvas-content>
+      <div className="app-dashboard-body-content off-canvas-content" data-off-canvas-content>        
         <TopNav/>
         <div className="page-wrapper">        
           <Route exact path="/" component={Order} />
