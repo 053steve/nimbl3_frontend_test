@@ -65,7 +65,7 @@ span {
   color: #8899AA;
   line-height: 16px; }
 
-.main-font, .app-dashboard-top-nav-bar select {
+.main-font, .app-dashboard-top-nav-bar .top-bar-right, .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-select-wrapper select#top-nav-select {
   font-family: Montserrat;
   font-weight: 300;
   font-size: 11px;
@@ -97,10 +97,24 @@ span {
     border: 1px solid black; }
     .app-dashboard-top-nav-bar .menu-icon:after {
       color: #0a0a0a; }
-  .app-dashboard-top-nav-bar select {
-    border-radius: 4px;
-    border: 1px solid #C9C9C9;
-    padding-left: 16px; }
+  .app-dashboard-top-nav-bar .top-bar-right ul {
+    background: #FFFFFF; }
+  .app-dashboard-top-nav-bar .top-bar-right ul.dropdown {
+    background: transparent; }
+    .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-dropdown {
+      border-left: 1px solid rgba(201, 201, 201, 0.69); }
+      .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-dropdown a {
+        color: #64707C;
+        font-size: 12px;
+        display: block; }
+        .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-dropdown a #profile-name {
+          color: #d5622f; }
+    .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-select-wrapper {
+      padding-right: 20px; }
+      .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-select-wrapper select#top-nav-select {
+        border-radius: 4px;
+        border: 1px solid #C9C9C9;
+        padding-left: 16px; }
 
 .app-dashboard-logo {
   color: #0a0a0a;

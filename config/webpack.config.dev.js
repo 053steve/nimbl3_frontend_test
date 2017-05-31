@@ -12,6 +12,7 @@ const ModuleScopePlugin = require('react-dev-utils/ModuleScopePlugin');
 const getClientEnvironment = require('./env');
 const paths = require('./paths');
 const SpriteLoaderPlugin = require('svg-sprite-loader/plugin');
+// require('../node_modules/script-loader');
 
 // Webpack uses `publicPath` to determine where the app is being served from.
 // In development, we always serve from the root. This makes config easier.
@@ -91,6 +92,7 @@ module.exports = {
       // Support React Native Web
       // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
       'react-native': 'react-native-web',
+      foundation: 'foundation-sites/js/foundation.core',
     },
     plugins: [
       // Prevents users from importing files from outside of src/ (or node_modules/).
@@ -100,6 +102,7 @@ module.exports = {
       // Make sure your source files are compiled, as they will not be processed in any way.
       new ModuleScopePlugin(paths.appSrc),
     ],
+    
   },
   module: {
     strictExportPresence: true,
@@ -144,7 +147,9 @@ module.exports = {
           /\.jpe?g$/,
           /\.png$/,
           /\.scss$/,
-          /\.svg$/,          
+          /\.svg$/,
+          /\.(foundation\.core)$/,
+          // /\.js$/,          
           
         ],
         loader: require.resolve('file-loader'),
@@ -223,7 +228,15 @@ module.exports = {
           extract: true,
           spriteFilename: 'icons-sprite.svg'
         }
-      }   
+      },
+      {
+        test: /(foundation\.core)/,
+        loader: 'exports?foundation=jQuery.fn.foundation'
+      },
+      // { 
+      //    test: /\.exec\.js$/, 
+      //    use: [ { loader: 'script-loader' } ]
+      // }
 
       // ** STOP ** Are you adding a new loader?
       // Remember to add the new extension(s) to the "file" loader exclusion list.
@@ -260,7 +273,12 @@ module.exports = {
     // https://github.com/jmblog/how-to-optimize-momentjs-with-webpack
     // You can remove this if you don't use Moment.js:
     new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
-    new SpriteLoaderPlugin()
+    new SpriteLoaderPlugin(),
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery',
+      'window.jQuery': 'jquery'
+    })
     
   ],
   // Some libraries import Node modules but don't use them in the browser.

@@ -3,11 +3,17 @@ import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 import Main from './Main'
 import Sidebar from '../components/Sidebar'
-import TopNav from '../components/Top-Nav'
 import './App.css'
+
+import $ from 'jquery'
+import foundation from 'foundation-sites'
+// import { foundation } from 'foundation-sites/js/foundation.core'
+// import 'foundation-sites/js/foundation.util.mediaQuery';
 
 const sidebarShrinkClass = 'shrink-medium'
 const sidebarExpandClass = 'shrink-large'
+
+
 
 class App extends Component {
 
@@ -28,6 +34,10 @@ class App extends Component {
 
   toggleMenu = isCollapse => {  
     (isCollapse) ? this.setState({shrinkerClass: sidebarShrinkClass }) : this.setState({shrinkerClass: sidebarExpandClass })
+  }
+
+  componentDidMount() {
+    $(document).foundation()
   }
 
   render() {

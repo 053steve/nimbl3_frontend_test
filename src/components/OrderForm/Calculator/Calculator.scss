@@ -5,10 +5,10 @@
   margin-bottom: 18px;
   #calculator {    
     padding: 10px 8px 26px 16px;
-    @extend .main-bold-font;
+    // @extend .main-bold-font;
 
     label {
-      // @extend .main-bold-font;
+      @extend .main-bold-font;
     }
 
     .total-label {      
