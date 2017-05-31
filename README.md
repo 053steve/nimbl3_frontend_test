@@ -1,9 +1,16 @@
-This is the frontend test for nimbl3
+# This is the frontend test for nimbl3
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 
-Requirements
+## instructions
+1. npm install and all other modules needed
+2. npm start
+3. enter http://localhost:3000
+4. enjoy!
+
+
+## Requirements
  
 Convert provided design (see Resources section) into semantic HTML markup, CSS and JS.
 The application should be responsive following these breakpoints:
@@ -12,7 +19,7 @@ Phone / Phablet (< 768px)
 Tablet (> 768px and < 1024px)
 Desktop (> 1024px)
  
-Technical requirements:
+## Technical requirements:
  
 HTML 5
 SASS
@@ -20,7 +27,7 @@ Grunt / Gulp / Webpack
 Vanilla JS /  jQuery. React / Ember JS / Vue JS favored.
 ES5 / ES6 favored
  
-Target browsers:
+## Target browsers:
  
 Chrome * / Chrome mobile (iOS/Android) *
 Firefox * / Firefox mobile (iOS/Android) *
@@ -29,12 +36,12 @@ IE10 / Edge and above
  
 (* latest 2 versions)
  
-Notes:
+## Notes:
  
 Do implement any functionality that requires a backend implementation. The rendered page should only respond to user interactions such as hover / focus but all click actions should not trigger any functionality e.g. edit quantity, edit owner...
 While the artwork shows a navigation with lots of links, implement only the page that is represented in the artwork (i.e. “Orders”)
   
-Methodology
+## Methodology
  
 Usage of a CSS framework is encouraged e.g. Bootstrap, Foundation, Neat
 Use flexbox to build the CSS layout
