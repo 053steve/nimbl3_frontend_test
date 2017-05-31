@@ -40,6 +40,7 @@ class Sidebar extends Component {
 
 
   handleClickOutside = evt => {
+
     let { dispatch, menuSidebarCollapsed } = this.props            
     if(!menuSidebarCollapsed) {
       dispatch(toggle_menu())
@@ -85,15 +86,27 @@ class Sidebar extends Component {
           </div>
         </div>
         <div className="app-dashboard-sidebar-inner">
-          <ul className="menu vertical">
+          <ul className="menu vertical dropdown">
             {this.props.sidebarButtons.map(function(obj) {
-              return (
+              let dropMenu = ''
+              let isActive = ''
+              let rows = []
+              
+              if(obj.isActive) {
+                isActive = 'active'
+              } 
+              // dropMenu = <ul className="vertical dropdown menu" data-dropdown-menu><li><a href="#">Item 1</a></li></ul>
 
-                <li key={obj.iconSrc}><a href="#" className="">
-                  <img src={obj.iconSrc} className='icon' alt=""/>
-                  <span className="app-dashboard-sidebar-text">{obj.link_title}</span>
-                </a></li>
-              )
+              let li = <li key={obj.iconSrc} className={isActive}>
+                        <a href="#" className="">
+                          <img src={obj.iconSrc} className='icon' alt=""/>
+                          <span className="app-dashboard-sidebar-text">{obj.link_title}</span>
+                        </a>                        
+                      </li>
+
+              rows.push(li)
+
+              return rows
 
             })}
           </ul>
@@ -113,16 +126,16 @@ Sidebar.propTypes = {
 
 Sidebar.defaultProps = {
   sidebarButtons: [
-    {iconSrc: controlsPurple, link_title:"Dashboard" },
-    {iconSrc: shoppingCart, link_title:"Orders" },
-    {iconSrc: factoryPurple, link_title:"Companies" },
-    {iconSrc: boxPurple, link_title:"Products" },
-    {iconSrc: documentPurple, link_title:"Documents" },
-    {iconSrc: chartPurple, link_title:"Pricing" },
-    {iconSrc: shapesPurple, link_title:"Brands" },
-    {iconSrc: gearPurple, link_title:"Settings" },
-    {iconSrc: pricingPurple, link_title:"Reports" },
-    {iconSrc: peoplePurple, link_title:"Account Users" },
+    {iconSrc: controlsPurple, link_title:"Dashboard", dropdown: false, isActive: false},
+    {iconSrc: shoppingCart, link_title:"Orders", dropdown: false, isActive: true},
+    {iconSrc: factoryPurple, link_title:"Companies", dropdown: true, isActive: false},
+    {iconSrc: boxPurple, link_title:"Products", dropdown: false, isActive: false},
+    {iconSrc: documentPurple, link_title:"Documents", dropdown: false, isActive: false},
+    {iconSrc: chartPurple, link_title:"Pricing", dropdown: false, isActive: false},
+    {iconSrc: shapesPurple, link_title:"Brands", dropdown: false, isActive: false},
+    {iconSrc: gearPurple, link_title:"Settings", dropdown: true, isActive: false},
+    {iconSrc: pricingPurple, link_title:"Reports", dropdown: false, isActive: false},
+    {iconSrc: peoplePurple, link_title:"Account Users", dropdown: false, isActive: false},
   ]
 }
 

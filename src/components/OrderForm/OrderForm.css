@@ -77,6 +77,11 @@ span {
   font-size: 11px;
   color: #626272; }
 
+.menu .active > a {
+  background-color: transparent;
+  border-left: 6px solid #65B32E;
+  border-radius: 0 17px 17px 0; }
+
 #orderinfo-wrapper {
   margin-top: 36px; }
   #orderinfo-wrapper #orderinfo-inputs {
@@ -191,6 +196,11 @@ span {
   font-size: 11px;
   color: #626272; }
 
+.menu .active > a {
+  background-color: transparent;
+  border-left: 6px solid #65B32E;
+  border-radius: 0 17px 17px 0; }
+
 #productinput-wrapper {
   margin-top: 17px; }
   #productinput-wrapper .input-container {
@@ -285,6 +295,11 @@ span {
   font-weight: bold;
   font-size: 11px;
   color: #626272; }
+
+.menu .active > a {
+  background-color: transparent;
+  border-left: 6px solid #65B32E;
+  border-radius: 0 17px 17px 0; }
 
 #productlist-wrapper {
   margin-top: 14px; }
@@ -389,6 +404,11 @@ span {
   font-size: 11px;
   color: #626272; }
 
+.menu .active > a {
+  background-color: transparent;
+  border-left: 6px solid #65B32E;
+  border-radius: 0 17px 17px 0; }
+
 #remarks-wrapper {
   margin-top: 14px; }
   #remarks-wrapper label {
@@ -480,6 +500,11 @@ span {
   font-weight: bold;
   font-size: 11px;
   color: #626272; }
+
+.menu .active > a {
+  background-color: transparent;
+  border-left: 6px solid #65B32E;
+  border-radius: 0 17px 17px 0; }
 
 #calculator-wrapper {
   margin-bottom: 18px; }

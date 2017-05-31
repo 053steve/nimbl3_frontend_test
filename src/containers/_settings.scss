@@ -64,6 +64,7 @@ $base-grey: #f4f7F8;
 $base : #702283;
 $white: #FFFFFF;
 $purple-light: #D18EE2;
+$purple-dark: #4C1367;
 
 $table-color-scale: 2%; //for even table rows
 
@@ -108,6 +109,12 @@ span {
   color: #626272;
 }
 
+
+.menu .active > a {
+  background-color: transparent;
+  border-left: 6px solid #65B32E;
+  border-radius: 0 17px 17px 0;
+}
 // div.vertical-line{
 //   width: 1px; /* Line width */
 //   background-color: black; /* Line color */

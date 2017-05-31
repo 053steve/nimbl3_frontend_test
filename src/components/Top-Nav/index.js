@@ -8,7 +8,7 @@ import { toggle_menu } from '../../actions'
 class TopNav extends Component {  
     
 
-  navtopMenuEvent = () => {    
+  navtopMenuEvent = () => {        
     this.props.dispatch(toggle_menu())
   }
 

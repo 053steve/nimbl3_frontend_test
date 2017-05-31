@@ -77,6 +77,11 @@ span {
   font-size: 11px;
   color: #626272; }
 
+.menu .active > a {
+  background-color: transparent;
+  border-left: 6px solid #65B32E;
+  border-radius: 0 17px 17px 0; }
+
 #productinput-wrapper {
   margin-top: 17px; }
   #productinput-wrapper .input-container {
