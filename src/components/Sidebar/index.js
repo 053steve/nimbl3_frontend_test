@@ -81,7 +81,7 @@ class Sidebar extends Component {
           </div>
           <div className="app-dashboard-open-sidebar">
             <button id="open-sidebar" className="app-dashboard-open-sidebar-button show-for-medium" onClick={this.sideBarMenuEvent.bind(this)} aria-label="open menu" type="button">
-              <span aria-hidden="true"><a href="#"><i className="large fa fa-angle-double-right"></i></a></span>
+              <img src={logo} className="icon logo" alt="logo"/>
             </button>
           </div>
         </div>

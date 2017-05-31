@@ -21,58 +21,60 @@ class Calculator extends Component {
               </div>
 
               <hr/>
+              <div className="middle-calculator">
               
-              <div className="row align-justify">
-                <div className="column small-7">
-                  <label className="right inline">Sub-total</label>
-                </div>
-                <div className="column small-5">
-                  <div className="right-value">
-                    40,033
-                  </div>
-                </div>
-              </div>
-
-              <div className="row align-justify">
-                <div className="column small-7">
-                  <label className="right inline">Shipping</label>
-                </div>
-                <div className="column small-5">
-                  <div className="right-value">
-                    <div className="right-value-box"> 0</div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="row align-justify">
-                <div className="column small-7">
-                  <label className="right inline">Special Discount</label>
-                </div>
-                <div className="column small-5">
-                  <div className="right-value">
-                    <div className="right-value-box"> 9,999.999</div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="row align-justify">
-                <div className="column small-7">
-                  <label className="right inline">Tax</label>
-                </div>
-                <div className="column small-5">
-                  <div className="right-value">
-                    <div className="row">
-                      <div className="columns small-3">
-                        <div className="right-value-box">7</div>
+                  <div className="row align-justify">
+                    <div className="column small-7">
+                      <label className="right inline">Sub-total</label>
+                    </div>
+                    <div className="column small-5">
+                      <div className="right-value">
+                        40,033
                       </div>
-                      <div className="columns small-9">
-                        %  1,826.00
-                      </div>
-                    </div>                    
+                    </div>
                   </div>
-                </div>
-              </div>
 
+                  <div className="row align-justify">
+                    <div className="column small-7">
+                      <label className="right inline">Shipping</label>
+                    </div>
+                    <div className="column small-5">
+                      <div className="right-value">
+                        <div className="right-value-box"> 0</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="row align-justify">
+                    <div className="column small-7">
+                      <label className="right inline">Special Discount</label>
+                    </div>
+                    <div className="column small-5">
+                      <div className="right-value">
+                        <div className="right-value-box"> 9,999.999</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="row align-justify">
+                    <div className="column small-7">
+                      <label className="right inline">Tax</label>
+                    </div>
+                    <div className="column small-5">
+                      <div className="right-value">
+                        <div className="row align-left">
+                          <div className="column small-3">
+                            <div className="right-value-box">7</div>                            
+                          </div>
+                          <div className="column small-3 tax-output">                            
+                            %1,826.00
+                          </div>
+                          
+                        </div>                    
+                      </div>
+                    </div>
+                  </div>
+              </div>
               <hr/>
 
               <div className="row align-justify">

@@ -6,9 +6,19 @@
   #calculator {    
     padding: 10px 8px 26px 16px;
     // @extend .main-bold-font;
+    hr {      
+      margin: 7px auto;
+    }
+
+    .middle-calculator {
+      .row {
+        margin-bottom: 4px;
+      }
+    }
 
     label {
       @extend .main-bold-font;
+      padding-top: 4px;
     }
 
     .total-label {      
@@ -35,6 +45,10 @@
           color: #C9C9C9;        
           padding: 7px 12px 6px 17px;
           text-align: center;
+      }
+
+      .tax-output {
+        padding-top:8px;
       }
     }
 

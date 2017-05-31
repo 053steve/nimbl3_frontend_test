@@ -7002,6 +7002,12 @@ span {
   margin-bottom: 18px; }
   #calculator-wrapper #calculator {
     padding: 10px 8px 26px 16px; }
+    #calculator-wrapper #calculator hr {
+      margin: 7px auto; }
+    #calculator-wrapper #calculator .middle-calculator .row {
+      margin-bottom: 4px; }
+    #calculator-wrapper #calculator label {
+      padding-top: 4px; }
     #calculator-wrapper #calculator .total-label {
       font-size: 14px; }
     #calculator-wrapper #calculator .right-value {
@@ -7018,6 +7024,8 @@ span {
         color: #C9C9C9;
         padding: 7px 12px 6px 17px;
         text-align: center; }
+      #calculator-wrapper #calculator .right-value .tax-output {
+        padding-top: 8px; }
 
 .container {
   max-width: 1193px; }
