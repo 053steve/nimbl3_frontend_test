@@ -8,7 +8,7 @@ class ProductList extends Component {
   render() {
     
     return  (        
-        <div id="productlist-wrapper" className="columns small-12"> 
+        <div id="productlist-wrapper" className="columns small-12 table-scroll"> 
           <table id="productlist" className="cards">            
             <thead>
               <tr>

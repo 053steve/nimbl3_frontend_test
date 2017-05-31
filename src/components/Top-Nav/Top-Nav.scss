@@ -14,6 +14,10 @@ $app-dashboard-top-nav-height: 55px;
   flex: 0 0 $app-dashboard-top-nav-height;
   border: 1px solid $black;  
 
+  @include breakpoint(small only) {
+    background-color: $purple-dark !important;
+  }
+
   .menu-icon {
     vertical-align: text-bottom;
     background: $black;
@@ -21,6 +25,27 @@ $app-dashboard-top-nav-height: 55px;
 
     &:after {
         color: $black;
+    }
+  }
+
+  .top-bar-left {
+
+    .arrowGrey {
+      width: 19px;
+      height: 17px;
+      transform: rotate(180deg)
+    }
+
+    #title-bar-small {
+      text-align: center;
+      color: white;
+    }
+
+    .magnifyingGlass {
+      width: 17px;
+      height: 17px;
+      margin-top: 2px;
+      float: right;
     }
   }
   

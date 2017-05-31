@@ -109,3 +109,6 @@ span {
   padding-left: 24.63px;
   padding-right: 24.63px;
   padding-top: 102px; }
+  @media screen and (max-width: 39.9375em) {
+    .page-wrapper {
+      padding: 0px; } }

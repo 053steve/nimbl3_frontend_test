@@ -107,12 +107,27 @@ span {
   width: 100%;
   flex: 0 0 55px;
   border: 1px solid #0a0a0a; }
+  @media screen and (max-width: 39.9375em) {
+    .app-dashboard-top-nav-bar {
+      background-color: #4C1367 !important; } }
   .app-dashboard-top-nav-bar .menu-icon {
     vertical-align: text-bottom;
     background: #0a0a0a;
     border: 1px solid black; }
     .app-dashboard-top-nav-bar .menu-icon:after {
       color: #0a0a0a; }
+  .app-dashboard-top-nav-bar .top-bar-left .arrowGrey {
+    width: 19px;
+    height: 17px;
+    transform: rotate(180deg); }
+  .app-dashboard-top-nav-bar .top-bar-left #title-bar-small {
+    text-align: center;
+    color: white; }
+  .app-dashboard-top-nav-bar .top-bar-left .magnifyingGlass {
+    width: 17px;
+    height: 17px;
+    margin-top: 2px;
+    float: right; }
   .app-dashboard-top-nav-bar .top-bar-right ul {
     background: #FFFFFF; }
   .app-dashboard-top-nav-bar .top-bar-right ul.dropdown {
