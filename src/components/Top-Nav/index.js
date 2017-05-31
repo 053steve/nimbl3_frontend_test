@@ -23,7 +23,7 @@ class TopNav extends Component {
       
       <div className="row expanded app-dashboard-top-nav-bar flex-container cards top-bar align-right">
         <div className="top-bar-left">
-          <button data-toggle="app-dashboard-sidebar" className="menu-icon hide-for-medium" onClick={this.navtopMenuEvent.bind(this)}></button>          
+          <button className="menu-icon hide-for-medium" onClick={this.navtopMenuEvent.bind(this)}></button>          
         </div>        
         <div className="top-bar-right">
         <div className="columns flex-child-shrink small-6">          

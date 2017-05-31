@@ -27,11 +27,10 @@ class ProductInput extends Component {
     (isFocus) ? this.setState({containerFocusClass: isFocusClass }) : this.setState({containerFocusClass: '' })
   }
 
-  handleClickOutside = evt => {
-    console.log('clicked outside')
+  handleClickOutside = evt => {    
     let { dispatch, inputFocusStatus } = this.props            
     if(inputFocusStatus) {
-      dispatch(focus_input(inputFocusStatus))
+      dispatch(focus_input())
     }
   }
   

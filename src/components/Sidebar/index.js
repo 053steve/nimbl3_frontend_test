@@ -40,7 +40,6 @@ class Sidebar extends Component {
 
 
   handleClickOutside = evt => {
-
     let { dispatch, menuSidebarCollapsed } = this.props            
     if(!menuSidebarCollapsed) {
       dispatch(toggle_menu())
@@ -60,7 +59,8 @@ class Sidebar extends Component {
     }    
   }
   
-  sideBarMenuEvent = () => {    
+  sideBarMenuEvent = () => { 
+    console.log('bar pressed');   
     this.props.dispatch(toggle_menu())
   }
 

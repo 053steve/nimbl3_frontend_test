@@ -27,9 +27,7 @@ class App extends Component {
     }
   }  
 
-  componentWillReceiveProps = nextProps => {
-    console.log("yo");
-    
+  componentWillReceiveProps = nextProps => {    
     if (nextProps.menuSidebarCollapsed !== this.props.menuSidebarCollapsed) {
       let { menuSidebarCollapsed } = nextProps
       this.toggleMenu(menuSidebarCollapsed)
