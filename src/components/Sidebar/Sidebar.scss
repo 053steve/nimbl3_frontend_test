@@ -1,8 +1,6 @@
 @import "foundation-sites/scss/foundation";
 @import '../../containers/_settings.scss';
 
-// $border1: 1px solid #000000;
-
 .app-dashboard-sidebar {
   background-color: $base;
   height: 100%;
@@ -15,7 +13,6 @@
   min-height: 100vh;
   flex-direction: column;
 
-  // border: $border1;
   .app-dashboard-sidebar-title-area {    
     .logo {
       width: 158px;
@@ -112,11 +109,6 @@
 
   }
   
-
-  // .fa.large {
-  //   font-size: rem-calc(24);
-  //   width: 40px;
-  // }
 }
 
 .app-dashboard-sidebar-text {
