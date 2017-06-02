@@ -83,11 +83,6 @@ span {
   font-size: 11px;
   color: #626272; }
 
-.menu .active > a {
-  background-color: transparent;
-  border-left: 6px solid #65B32E;
-  border-radius: 0 17px 17px 0; }
-
 .overlay {
   height: 100%;
   background-color: #191919;
@@ -116,7 +111,7 @@ span {
 .page-wrapper {
   padding-left: 24.63px;
   padding-right: 24.63px;
-  padding-top: 102px; }
+  padding-top: 42px; }
   @media screen and (max-width: 39.9375em) {
     .page-wrapper {
       padding: 0px; } }

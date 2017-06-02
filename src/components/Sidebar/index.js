@@ -95,17 +95,18 @@ class Sidebar extends Component {
               } 
               // dropMenu = <ul className="vertical dropdown menu" data-dropdown-menu><li><a href="#">Item 1</a></li></ul>
 
-              let li = <li key={obj.iconSrc} className={isActive}>
-                        <a href="#" className="">
-                          <img src={obj.iconSrc} className='icon' alt=""/>
-                          <span className="app-dashboard-sidebar-text">{obj.link_title}</span>
-                        </a>                        
-                      </li>
+              let li =  <li key={obj.iconSrc} className={isActive}>
+                          <a href="#" className="">
+                            <div className="sidebar-list-wrapper">
+                              <img src={obj.iconSrc} className='icon' alt=""/>
+                              <span className="app-dashboard-sidebar-text">{obj.link_title}</span>  
+                            </div>
+                          </a>                        
+                        </li>
 
               rows.push(li)
 
               return rows
-
             })}
           </ul>
         </div>

@@ -77,11 +77,6 @@ span {
   font-size: 11px;
   color: #626272; }
 
-.menu .active > a {
-  background-color: transparent;
-  border-left: 6px solid #65B32E;
-  border-radius: 0 17px 17px 0; }
-
 .overlay {
   height: 100%;
   background-color: #191919;
@@ -108,7 +103,8 @@ span {
  * Licensed under MIT Open Source
  */
 #orderinfo-wrapper {
-  margin-top: 36px; }
+  margin-top: 36px;
+  width: 100%; }
   @media screen and (max-width: 39.9375em) {
     #orderinfo-wrapper {
       margin-top: 0px; } }
@@ -248,11 +244,6 @@ span {
   font-size: 11px;
   color: #626272; }
 
-.menu .active > a {
-  background-color: transparent;
-  border-left: 6px solid #65B32E;
-  border-radius: 0 17px 17px 0; }
-
 .overlay {
   height: 100%;
   background-color: #191919;
@@ -366,11 +357,6 @@ span {
   font-weight: bold;
   font-size: 11px;
   color: #626272; }
-
-.menu .active > a {
-  background-color: transparent;
-  border-left: 6px solid #65B32E;
-  border-radius: 0 17px 17px 0; }
 
 .overlay {
   height: 100%;
@@ -498,11 +484,6 @@ span {
   font-size: 11px;
   color: #626272; }
 
-.menu .active > a {
-  background-color: transparent;
-  border-left: 6px solid #65B32E;
-  border-radius: 0 17px 17px 0; }
-
 .overlay {
   height: 100%;
   background-color: #191919;
@@ -613,11 +594,6 @@ span {
   font-weight: bold;
   font-size: 11px;
   color: #626272; }
-
-.menu .active > a {
-  background-color: transparent;
-  border-left: 6px solid #65B32E;
-  border-radius: 0 17px 17px 0; }
 
 .overlay {
   height: 100%;

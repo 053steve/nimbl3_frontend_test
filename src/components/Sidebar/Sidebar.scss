@@ -1,7 +1,7 @@
 @import "foundation-sites/scss/foundation";
 @import '../../containers/_settings.scss';
 
-$border1: 1px solid #000000;
+// $border1: 1px solid #000000;
 
 .app-dashboard-sidebar {
   background-color: $base;
@@ -61,38 +61,57 @@ $border1: 1px solid #000000;
 
     .menu {
       margin-top: 14px;
+
+      li {
+        
+        height: 66.87px;  
+
+        &:hover {
+          background-color: $purple-dark;
+        }
+
+        a {
+          align-items: center;      
+          height: 100%;
+          width: 100%;
+          padding: 0px;
+
+          &:hover {
+            color: $purple-light;
+          }
+
+          .sidebar-list-wrapper {
+            height: 30px;
+            padding-top: 6px;
+            padding-left: 7px;
+          }
+
+        }
+
+        &.active {
+          background-color: $purple-dark;
+
+          a {
+
+            background-color: transparent;
+            border-radius: 0 17px 17px 0;
+            background-color: $purple-dark;  
+
+            .sidebar-list-wrapper {                  
+                  border-left: 4px solid #65B32E;
+                  padding-left: 2px;                  
+            }          
+
+          }
+
+        }        
+      }
     }
 
-    .menu > li {
-      
-      &:hover {
-        background-color: $purple-dark;
-      }
-
-      &.active {
-        background-color: $purple-dark;
-      }
-
-
-      height: 66.87px;
-      padding-top: 13px;
-      padding-left: 0px;
-
-    }
-
-    
-    .menu > li > a {
-      align-items: center;
-
-      &:hover {
-        color: $purple-light;
-      }
-    }    
 
 
   }
   
-
 
   // .fa.large {
   //   font-size: rem-calc(24);

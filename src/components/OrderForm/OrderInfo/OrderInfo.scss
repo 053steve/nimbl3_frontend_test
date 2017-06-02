@@ -3,6 +3,7 @@
 
 #orderinfo-wrapper {
   margin-top: 36px;
+  width: 100%;
 
   @include breakpoint(small only) {
       margin-top: 0px;

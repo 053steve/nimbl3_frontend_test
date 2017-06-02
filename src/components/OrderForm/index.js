@@ -8,7 +8,7 @@ import Calculator from './Calculator'
 class OrderForm extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="">
         <div className="row expanded">                  
           <div className="order-title columns small-12 hide-for-small-only">
             <div><span className="title">Orders/ </span>TN SO 000015</div>

@@ -52,6 +52,12 @@ body {
   // border: 1px solid rgba(173,179,185,0.51);
 }
 
+.table-scroll {
+  table {
+    width: 100%;
+  }
+}
+
 
 // mini sidebar on medium/tablet size
 @include breakpoint(medium only) {

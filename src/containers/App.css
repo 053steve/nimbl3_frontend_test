@@ -78,11 +78,6 @@ span {
   font-size: 11px;
   color: #626272; }
 
-.menu .active > a {
-  background-color: transparent;
-  border-left: 6px solid #65B32E;
-  border-radius: 0 17px 17px 0; }
-
 .overlay {
   height: 100%;
   background-color: #191919;
@@ -6187,11 +6182,6 @@ span {
   font-size: 11px;
   color: #626272; }
 
-.menu .active > a {
-  background-color: transparent;
-  border-left: 6px solid #65B32E;
-  border-radius: 0 17px 17px 0; }
-
 .overlay {
   height: 100%;
   background-color: #191919;
@@ -6383,11 +6373,6 @@ span {
   font-size: 11px;
   color: #626272; }
 
-.menu .active > a {
-  background-color: transparent;
-  border-left: 6px solid #65B32E;
-  border-radius: 0 17px 17px 0; }
-
 .overlay {
   height: 100%;
   background-color: #191919;
@@ -6441,18 +6426,30 @@ span {
       margin-left: 17px; }
     .app-dashboard-sidebar .app-dashboard-sidebar-inner .menu {
       margin-top: 14px; }
-    .app-dashboard-sidebar .app-dashboard-sidebar-inner .menu > li {
-      height: 66.87px;
-      padding-top: 13px;
-      padding-left: 0px; }
-      .app-dashboard-sidebar .app-dashboard-sidebar-inner .menu > li:hover {
-        background-color: #4C1367; }
-      .app-dashboard-sidebar .app-dashboard-sidebar-inner .menu > li.active {
-        background-color: #4C1367; }
-    .app-dashboard-sidebar .app-dashboard-sidebar-inner .menu > li > a {
-      align-items: center; }
-      .app-dashboard-sidebar .app-dashboard-sidebar-inner .menu > li > a:hover {
-        color: #D18EE2; }
+      .app-dashboard-sidebar .app-dashboard-sidebar-inner .menu li {
+        height: 66.87px; }
+        .app-dashboard-sidebar .app-dashboard-sidebar-inner .menu li:hover {
+          background-color: #4C1367; }
+        .app-dashboard-sidebar .app-dashboard-sidebar-inner .menu li a {
+          align-items: center;
+          height: 100%;
+          width: 100%;
+          padding: 0px; }
+          .app-dashboard-sidebar .app-dashboard-sidebar-inner .menu li a:hover {
+            color: #D18EE2; }
+          .app-dashboard-sidebar .app-dashboard-sidebar-inner .menu li a .sidebar-list-wrapper {
+            height: 30px;
+            padding-top: 6px;
+            padding-left: 7px; }
+        .app-dashboard-sidebar .app-dashboard-sidebar-inner .menu li.active {
+          background-color: #4C1367; }
+          .app-dashboard-sidebar .app-dashboard-sidebar-inner .menu li.active a {
+            background-color: transparent;
+            border-radius: 0 17px 17px 0;
+            background-color: #4C1367; }
+            .app-dashboard-sidebar .app-dashboard-sidebar-inner .menu li.active a .sidebar-list-wrapper {
+              border-left: 4px solid #65B32E;
+              padding-left: 2px; }
 
 .app-dashboard-sidebar-text {
   font-family: Montserrat;
@@ -6553,11 +6550,6 @@ span {
   font-size: 11px;
   color: #626272; }
 
-.menu .active > a {
-  background-color: transparent;
-  border-left: 6px solid #65B32E;
-  border-radius: 0 17px 17px 0; }
-
 .overlay {
   height: 100%;
   background-color: #191919;
@@ -6584,7 +6576,8 @@ span {
  * Licensed under MIT Open Source
  */
 #orderinfo-wrapper {
-  margin-top: 36px; }
+  margin-top: 36px;
+  width: 100%; }
   @media screen and (max-width: 39.9375em) {
     #orderinfo-wrapper {
       margin-top: 0px; } }
@@ -6724,11 +6717,6 @@ span {
   font-size: 11px;
   color: #626272; }
 
-.menu .active > a {
-  background-color: transparent;
-  border-left: 6px solid #65B32E;
-  border-radius: 0 17px 17px 0; }
-
 .overlay {
   height: 100%;
   background-color: #191919;
@@ -6842,11 +6830,6 @@ span {
   font-weight: bold;
   font-size: 11px;
   color: #626272; }
-
-.menu .active > a {
-  background-color: transparent;
-  border-left: 6px solid #65B32E;
-  border-radius: 0 17px 17px 0; }
 
 .overlay {
   height: 100%;
@@ -6974,11 +6957,6 @@ span {
   font-size: 11px;
   color: #626272; }
 
-.menu .active > a {
-  background-color: transparent;
-  border-left: 6px solid #65B32E;
-  border-radius: 0 17px 17px 0; }
-
 .overlay {
   height: 100%;
   background-color: #191919;
@@ -7089,11 +7067,6 @@ span {
   font-weight: bold;
   font-size: 11px;
   color: #626272; }
-
-.menu .active > a {
-  background-color: transparent;
-  border-left: 6px solid #65B32E;
-  border-radius: 0 17px 17px 0; }
 
 .overlay {
   height: 100%;
@@ -7236,11 +7209,6 @@ span {
   font-size: 11px;
   color: #626272; }
 
-.menu .active > a {
-  background-color: transparent;
-  border-left: 6px solid #65B32E;
-  border-radius: 0 17px 17px 0; }
-
 .overlay {
   height: 100%;
   background-color: #191919;
@@ -7349,11 +7317,6 @@ span {
   font-size: 11px;
   color: #626272; }
 
-.menu .active > a {
-  background-color: transparent;
-  border-left: 6px solid #65B32E;
-  border-radius: 0 17px 17px 0; }
-
 .overlay {
   height: 100%;
   background-color: #191919;
@@ -7382,7 +7345,7 @@ span {
 .page-wrapper {
   padding-left: 24.63px;
   padding-right: 24.63px;
-  padding-top: 102px; }
+  padding-top: 42px; }
   @media screen and (max-width: 39.9375em) {
     .page-wrapper {
       padding: 0px; } }
@@ -7408,6 +7371,9 @@ body {
   background-color: #FFFFFF;
   border-radius: 3px;
   border: 1px solid rgba(201, 201, 201, 0.69); }
+
+.table-scroll table {
+  width: 100%; }
 
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   .app-dashboard.shrink-medium .app-dashboard-close-sidebar, .app-dashboard.shrink-medium .app-dashboard-sidebar-text {
