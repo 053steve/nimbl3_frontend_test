@@ -4,11 +4,8 @@ import PropTypes from 'prop-types'
 import Main from './Main'
 import Sidebar from '../components/Sidebar'
 import './App.css'
-
 import $ from 'jquery'
 import foundation from 'foundation-sites'
-// import { foundation } from 'foundation-sites/js/foundation.core'
-// import 'foundation-sites/js/foundation.util.mediaQuery';
 
 const sidebarShrinkClass = 'shrink-medium'
 const sidebarExpandClass = 'shrink-large'

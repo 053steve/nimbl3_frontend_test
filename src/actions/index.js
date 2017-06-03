@@ -1,5 +1,4 @@
 
-// export const TOGGLE_BURGER = 'TOGGLE_BURGER';
 export const MENU_OPEN = 'MENU_OPEN'
 export const MENU_CLOSE = 'MENU_CLOSE'
 export const INPUT_FOCUS = 'INPUT_FOCUS'
@@ -28,19 +27,6 @@ export function input_unfocus() {
     type: INPUT_UNFOCUS
   }
 }
-
-/**
- * Standard redux action creator
- */
-// export function toggle_burger() {
-//   console.log('got here')  
-
-//   // return {
-//   //   type: TOGGLE_BURGER,
-//   //   bool
-//   // };
-// }
-
 
 export function toggle_menu() {
   return (dispatch, getState) => {

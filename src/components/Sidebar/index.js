@@ -72,10 +72,7 @@ class Sidebar extends Component {
       <div id="app-dashboard-sidebar" className={`app-dashboard-sidebar position-left off-canvas off-canvas-absolute reveal-for-medium ${sideBarClass}`} data-off-canvas>
         <div className="app-dashboard-sidebar-title-area">
           <div className="app-dashboard-close-sidebar">
-            <img src={logo} className="icon logo" alt="logo"/>
-            {/*<h3 className="app-dashboard-sidebar-block-title">
-                Sidebar
-              </h3>*/}
+            <img src={logo} className="icon logo" alt="logo"/>            
 
           </div>
           <div className="app-dashboard-open-sidebar">
@@ -92,8 +89,7 @@ class Sidebar extends Component {
               
               if(obj.isActive) {
                 isActive = 'active'
-              } 
-              // dropMenu = <ul className="vertical dropdown menu" data-dropdown-menu><li><a href="#">Item 1</a></li></ul>
+              }               
 
               let li =  <li key={obj.iconSrc} className={isActive}>
                           <a href="#" className="">

@@ -1,19 +1,8 @@
 
 @import '_settings.scss';
-
-// @font-face {
-//   font-family: 'Montserrat-Black';
-//   src: url('../assets/fonts/Montserrat-Black.otf');    
-// }
-
-// $fa-font-path: "../../node_modules/font-awesome/fonts";
-
 @import "foundation-sites/scss/foundation";
 @include foundation-everything(true);
-
 @import "font-awesome/scss/font-awesome";
-
-
 @import "../components/Top-Nav/Top-Nav.scss";
 @import "../components/Sidebar/Sidebar.scss";
 @import "../components/OrderForm/OrderForm.scss";
@@ -39,17 +28,13 @@ body {
 }
 
 .wireframe-box {
-  border: 1px solid black;
-  // background-color: $white;
-  // width: 100%;
-  // height: 100%;
+  border: 1px solid black;  
 }
 
 .cards {
   background-color: $white;
   border-radius: 3px;
-  border: 1px solid rgba(201,201,201,0.69);
-  // border: 1px solid rgba(173,179,185,0.51);
+  border: 1px solid rgba(201,201,201,0.69);  
 }
 
 .table-scroll {

@@ -5,9 +5,6 @@ import { toggle_menu } from '../../actions'
 import arrowGrey from '../../assets/icons/arrow-grey.svg';
 import magnifyingGlass from '../../assets/icons/magnifying-glass.svg';
 
-
-// import $ from 'jquery'
-
 class TopNav extends Component {  
     
 
