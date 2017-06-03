@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 
-class OrderInfo extends Component {  
-
-
-  getOrderActions = (isForSmall) => {
+let getOrderActions = (isForSmall) => {
     let visibility = (isForSmall) ? 'show-for-small-only' : 'hide-for-small-only'
 
     let OrderActions = <div id="order-actions" className={`columns small-12 medium-3 ${visibility}`}> 
@@ -18,7 +15,7 @@ class OrderInfo extends Component {
 
   }
 
-  getRandomSelect = (placeholder) => {
+  let getRandomSelect = (placeholder) => {
     return (
       <select>
         <option value="" selected disabled>{placeholder}</option>
@@ -28,65 +25,64 @@ class OrderInfo extends Component {
       </select>
     )
   }
-  
-  render() {
-    
-    return  (
 
-      <div id="orderinfo-wrapper" className="">
+let OrderInfo = (props) => {
+  return  (
 
-        <div className="show-for-small-only mobile-order-info ">
-            <div className="mobile-orderinfo-from">CPF Saraburi</div>
-            <div className="mobile-orderinfo-location">Highway 2, Kaeng Khoi Saraburi Thailand</div>
-            
-        </div>        
+    <div id="orderinfo-wrapper" className="">
 
-        <div className="columns small-12">
-          <div className="row">
+      <div className="show-for-small-only mobile-order-info ">
+          <div className="mobile-orderinfo-from">CPF Saraburi</div>
+          <div className="mobile-orderinfo-location">Highway 2, Kaeng Khoi Saraburi Thailand</div>
+          
+      </div>        
 
-            <div className="columns small-12 medium-9"> 
-              <div id="orderinfo-inputs" className="cards">
-                <div className="row">  
+      <div className="columns small-12">
+        <div className="row">
 
-                  {this.getOrderActions(true)}   
+          <div className="columns small-12 medium-9"> 
+            <div id="orderinfo-inputs" className="cards">
+              <div className="row">  
 
-                  <div className="columns small-12 medium-6 hide-for-small-only">                  
-                    <span>
-                      <div id="orderinfo-from"><span>CPF Saraburi</span></div>
-                      <div id="orderinfo-location"><span>Highway 2, Kaeng Khoi Saraburi Thailand</span></div>
-                      <div id="orderinfo-number"><span>+66 087 348 79 34</span></div>  
-                    </span>                  
-                  </div>                
-                  <div className="columns small-12 medium-2 orderinfo-select hide-for-small-only">
-                    <label> Type
-                      {this.getRandomSelect('Retailers')}
-                    </label>                  
-                  </div>
+                {getOrderActions(true)}   
 
-                  <div className="columns small-12 medium-2 orderinfo-select">
-                    <label>Owned By
-                      {this.getRandomSelect('Tom Hanks')}
-                    </label>
-                  </div>
-                  <div className="columns small-12 medium-2 orderinfo-select ">
-                    <label>Status
-                      {this.getRandomSelect('Pending')}
-                    </label>
-                  </div>
+                <div className="columns small-12 medium-6 hide-for-small-only">                  
+                  <span>
+                    <div id="orderinfo-from"><span>CPF Saraburi</span></div>
+                    <div id="orderinfo-location"><span>Highway 2, Kaeng Khoi Saraburi Thailand</span></div>
+                    <div id="orderinfo-number"><span>+66 087 348 79 34</span></div>  
+                  </span>                  
+                </div>                
+                <div className="columns small-12 medium-2 orderinfo-select hide-for-small-only">
+                  <label> Type
+                    {getRandomSelect('Retailers')}
+                  </label>                  
                 </div>
-                
-              </div>
-            </div>
 
-            {this.getOrderActions(false)}
-            
+                <div className="columns small-12 medium-2 orderinfo-select">
+                  <label>Owned By
+                    {getRandomSelect('Tom Hanks')}
+                  </label>
+                </div>
+                <div className="columns small-12 medium-2 orderinfo-select ">
+                  <label>Status
+                    {getRandomSelect('Pending')}
+                  </label>
+                </div>
+              </div>
+              
+            </div>
           </div>
+
+          {getOrderActions(false)}
+          
         </div>
-        
       </div>
-    );
-  }
+      
+    </div>
+  )  
 }
+
 
 
 

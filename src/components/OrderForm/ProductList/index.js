@@ -1,25 +1,21 @@
 import React, { Component } from 'react'
-import editIcon from '../../../assets/icons/icon_edit.svg';
+import editIcon from '../../../assets/icons/icon_edit.svg'
 
 
-class ProductList extends Component {  
-
-
-  render() {
-    
-    return  (        
+let ProductList = (props) => {
+  return  (        
         <div id="productlist-wrapper" className="columns small-12 table-scroll"> 
           <table id="productlist" className="cards">            
             <thead>
               <tr>
-                {this.props.theadList.map(function(title) {
+                {props.theadList.map(function(title) {
                   return <th key={title}>{title}</th>;
                 })}
                 <th></th>
               </tr>
             </thead>
             <tbody>              
-              {this.props.listObject.map((listobj) => { 
+              {props.listObject.map((listobj) => { 
                   let rows = []
                   let pricesTd, netTd, totalTd                  
 
@@ -60,11 +56,10 @@ class ProductList extends Component {
             </tbody>
           </table>
       </div> 
-
-                
-    );
-  }
+  )  
 }
+
+
 
 ProductList.defaultProps = {
   theadList: ['sku', 'description', 'brand', 'list price', 'discount price', 'net price', 'qty', 'total'],

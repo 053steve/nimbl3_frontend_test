@@ -14,14 +14,12 @@ const logoFooterStyle = {
     height: '73px'
 }
 
-class Footer extends Component {
-  render() {
-    return (
-      <div id="footer-container " className="show-for-small-only" style={footerConStyle}>
-          <img src={logo_footer} className="icon logo_footer" alt="logo_footer" style={logoFooterStyle}/>
-      </div>
-    )
-  }
+let Footer = (props) => {
+  return (
+    <div id="footer-container " className="show-for-small-only" style={footerConStyle}>
+        <img src={logo_footer} className="icon logo_footer" alt="logo_footer" style={logoFooterStyle}/>
+    </div>
+  )
 }
 
 export default Footer
