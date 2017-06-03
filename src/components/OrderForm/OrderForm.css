@@ -59,7 +59,7 @@ span {
   color: #8899AA;
   line-height: 16px; }
 
-.main-font, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #productinput, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
+.main-font, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #product-input, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
   font-family: Montserrat;
   font-weight: 300;
   font-size: 11px;
@@ -226,7 +226,7 @@ span {
   color: #8899AA;
   line-height: 16px; }
 
-.main-font, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #productinput, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
+.main-font, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #product-input, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
   font-family: Montserrat;
   font-weight: 300;
   font-size: 11px;
@@ -269,7 +269,7 @@ span {
     position: relative;
     padding: 0;
     margin: 0; }
-    #productinput-wrapper .input-container #productinput {
+    #productinput-wrapper .input-container #product-input {
       height: 50px;
       padding-left: 35px; }
     #productinput-wrapper .input-container .plus-icon {
@@ -340,7 +340,7 @@ span {
   color: #8899AA;
   line-height: 16px; }
 
-.main-font, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #productinput, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
+.main-font, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #product-input, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
   font-family: Montserrat;
   font-weight: 300;
   font-size: 11px;
@@ -466,7 +466,7 @@ span {
   color: #8899AA;
   line-height: 16px; }
 
-.main-font, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #productinput, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
+.main-font, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #product-input, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
   font-family: Montserrat;
   font-weight: 300;
   font-size: 11px;
@@ -577,7 +577,7 @@ span {
   color: #8899AA;
   line-height: 16px; }
 
-.main-font, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #productinput, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
+.main-font, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #product-input, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
   font-family: Montserrat;
   font-weight: 300;
   font-size: 11px;
@@ -643,9 +643,6 @@ span {
         text-align: center; }
       #calculator-wrapper #calculator .right-value .tax-output {
         padding-top: 8px; }
-
-.container {
-  max-width: 1193px; }
 
 .order-title div {
   font-family: Montserrat;

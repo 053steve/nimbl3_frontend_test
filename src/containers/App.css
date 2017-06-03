@@ -60,7 +60,7 @@ span {
   color: #8899AA;
   line-height: 16px; }
 
-.main-font, .app-dashboard-top-nav-bar .top-bar-right, .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-select-wrapper select#top-nav-select, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #productinput, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
+.main-font, .app-dashboard-top-nav-bar .top-bar-right, .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-select-wrapper select#top-nav-select, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #product-input, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
   font-family: Montserrat;
   font-weight: 300;
   font-size: 11px;
@@ -6164,7 +6164,7 @@ span {
   color: #8899AA;
   line-height: 16px; }
 
-.main-font, .app-dashboard-top-nav-bar .top-bar-right, .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-select-wrapper select#top-nav-select, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #productinput, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
+.main-font, .app-dashboard-top-nav-bar .top-bar-right, .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-select-wrapper select#top-nav-select, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #product-input, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
   font-family: Montserrat;
   font-weight: 300;
   font-size: 11px;
@@ -6225,7 +6225,7 @@ span {
   .app-dashboard-top-nav-bar .top-bar-left #title-bar-small {
     text-align: center;
     color: white; }
-  .app-dashboard-top-nav-bar .top-bar-left .magnifyingGlass {
+  .app-dashboard-top-nav-bar .top-bar-left .magnifying-glass {
     width: 17px;
     height: 17px;
     margin-top: 2px;
@@ -6355,7 +6355,7 @@ span {
   color: #8899AA;
   line-height: 16px; }
 
-.main-font, .app-dashboard-top-nav-bar .top-bar-right, .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-select-wrapper select#top-nav-select, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #productinput, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
+.main-font, .app-dashboard-top-nav-bar .top-bar-right, .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-select-wrapper select#top-nav-select, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #product-input, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
   font-family: Montserrat;
   font-weight: 300;
   font-size: 11px;
@@ -6532,7 +6532,7 @@ span {
   color: #8899AA;
   line-height: 16px; }
 
-.main-font, .app-dashboard-top-nav-bar .top-bar-right, .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-select-wrapper select#top-nav-select, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #productinput, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
+.main-font, .app-dashboard-top-nav-bar .top-bar-right, .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-select-wrapper select#top-nav-select, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #product-input, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
   font-family: Montserrat;
   font-weight: 300;
   font-size: 11px;
@@ -6699,7 +6699,7 @@ span {
   color: #8899AA;
   line-height: 16px; }
 
-.main-font, .app-dashboard-top-nav-bar .top-bar-right, .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-select-wrapper select#top-nav-select, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #productinput, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
+.main-font, .app-dashboard-top-nav-bar .top-bar-right, .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-select-wrapper select#top-nav-select, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #product-input, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
   font-family: Montserrat;
   font-weight: 300;
   font-size: 11px;
@@ -6742,7 +6742,7 @@ span {
     position: relative;
     padding: 0;
     margin: 0; }
-    #productinput-wrapper .input-container #productinput {
+    #productinput-wrapper .input-container #product-input {
       height: 50px;
       padding-left: 35px; }
     #productinput-wrapper .input-container .plus-icon {
@@ -6813,7 +6813,7 @@ span {
   color: #8899AA;
   line-height: 16px; }
 
-.main-font, .app-dashboard-top-nav-bar .top-bar-right, .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-select-wrapper select#top-nav-select, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #productinput, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
+.main-font, .app-dashboard-top-nav-bar .top-bar-right, .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-select-wrapper select#top-nav-select, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #product-input, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
   font-family: Montserrat;
   font-weight: 300;
   font-size: 11px;
@@ -6939,7 +6939,7 @@ span {
   color: #8899AA;
   line-height: 16px; }
 
-.main-font, .app-dashboard-top-nav-bar .top-bar-right, .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-select-wrapper select#top-nav-select, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #productinput, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
+.main-font, .app-dashboard-top-nav-bar .top-bar-right, .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-select-wrapper select#top-nav-select, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #product-input, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
   font-family: Montserrat;
   font-weight: 300;
   font-size: 11px;
@@ -7050,7 +7050,7 @@ span {
   color: #8899AA;
   line-height: 16px; }
 
-.main-font, .app-dashboard-top-nav-bar .top-bar-right, .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-select-wrapper select#top-nav-select, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #productinput, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
+.main-font, .app-dashboard-top-nav-bar .top-bar-right, .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-select-wrapper select#top-nav-select, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #product-input, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
   font-family: Montserrat;
   font-weight: 300;
   font-size: 11px;
@@ -7116,9 +7116,6 @@ span {
         text-align: center; }
       #calculator-wrapper #calculator .right-value .tax-output {
         padding-top: 8px; }
-
-.container {
-  max-width: 1193px; }
 
 .order-title div {
   font-family: Montserrat;
@@ -7192,7 +7189,7 @@ span {
   color: #8899AA;
   line-height: 16px; }
 
-.main-font, .app-dashboard-top-nav-bar .top-bar-right, .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-select-wrapper select#top-nav-select, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #productinput, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
+.main-font, .app-dashboard-top-nav-bar .top-bar-right, .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-select-wrapper select#top-nav-select, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #product-input, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
   font-family: Montserrat;
   font-weight: 300;
   font-size: 11px;
@@ -7300,7 +7297,7 @@ span {
   color: #8899AA;
   line-height: 16px; }
 
-.main-font, .app-dashboard-top-nav-bar .top-bar-right, .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-select-wrapper select#top-nav-select, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #productinput, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
+.main-font, .app-dashboard-top-nav-bar .top-bar-right, .app-dashboard-top-nav-bar .top-bar-right ul.dropdown li#top-nav-select-wrapper select#top-nav-select, #orderinfo-wrapper .mobile-order-info .mobile-orderinfo-location, #orderinfo-wrapper #orderinfo-inputs .orderinfo-select label select, #productinput-wrapper .input-container #product-input, #productlist-wrapper table#productlist tbody, #remarks-wrapper label textarea#remarks, #calculator-wrapper #calculator .right-value, #calculator-wrapper #calculator .right-value .right-value-box {
   font-family: Montserrat;
   font-weight: 300;
   font-size: 11px;

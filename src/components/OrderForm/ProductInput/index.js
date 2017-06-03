@@ -43,7 +43,7 @@ class ProductInput extends Component {
             <div className={`input-container ${containerFocusClass}`}>              
               <input 
                 type="text" 
-                id="productinput" 
+                id="product-input" 
                 className="cards" 
                 ref={(c) => {this.ref = c;}}
                 onFocus={() => {                  
