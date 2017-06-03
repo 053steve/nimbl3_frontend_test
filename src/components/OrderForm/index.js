@@ -14,14 +14,13 @@ class OrderForm extends Component {
             <div><span className="title">Orders/ </span>TN SO 000015</div>
           </div>
         </div>
-
         
         <div className="row expanded">          
           <OrderInfo/>
         </div>
 
         <div className="row expanded show-for-small-only">          
-          <Calculator/>
+          <Calculator isSticky={false} />
         </div>
 
         <div className="row expanded">        
@@ -41,7 +40,7 @@ class OrderForm extends Component {
         </div>
 
         <div className="row expanded hide-for-small-only">        
-          <Calculator/>
+          <Calculator isSticky={true} />
         </div>
 
       </div>
