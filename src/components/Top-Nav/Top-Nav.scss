@@ -59,6 +59,7 @@ $app-dashboard-top-nav-height: 55px;
       background: transparent;
 
       li#top-nav-dropdown {  
+        border-left: 1px solid rgba(201, 201, 201, 0.69);
         a {
           color: #64707C;
           font-size: 12px; 
@@ -68,8 +69,6 @@ $app-dashboard-top-nav-height: 55px;
             color: #d5622f;
           }
         }
-
-        border-left: 1px solid rgba(201, 201, 201, 0.69)
       }
 
       li#top-nav-select-wrapper {

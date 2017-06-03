@@ -6636,7 +6636,7 @@ span {
       #orderinfo-wrapper #order-actions a.back:hover {
         color: #9696a4; }
     #orderinfo-wrapper #order-actions a.button {
-      color: white; }
+      color: #FFFFFF; }
 
 @font-face {
   font-family: 'Montserrat-Black';
@@ -7231,7 +7231,7 @@ span {
 
 #footer-container {
   height: 66px;
-  background-color: #4c1367; }
+  background-color: #4C1367; }
 
 /**
  * Foundation for Sites by ZURB
