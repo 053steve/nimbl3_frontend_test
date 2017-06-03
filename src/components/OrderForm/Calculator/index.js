@@ -7,8 +7,8 @@ class Calculator extends Component {
     
     return  (
               
-        <div id="calculator-wrapper" className="columns small-12 medium-offset-8 medium-4">            
-          <div id="calculator" className="cards">
+        <div id="calculator-wrapper" className="columns small-12 medium-offset-8 medium-4" data-sticky-container>            
+          <div id="calculator" className="cards sticky" data-sticky data-stick-to="bottom">
               <div className="row align-justify">
                 <div className="column small-7">
                   <label>Estimated Delivery Date</label>
