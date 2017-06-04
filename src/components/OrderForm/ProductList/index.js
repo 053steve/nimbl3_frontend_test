@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import editIcon from '../../../assets/icons/icon_edit.svg'
 
 
@@ -24,7 +24,7 @@ let ProductList = (props) => {
                     netTd = <td className="net-price">{listobj.listprice}</td>
                     totalTd = <td className="total">{listobj.total}</td>
                   } else {
-                    let alert = <td className="list-price price-set-alert"><a href="#">Set Price</a></td> 
+                    let alert = <td className="list-price price-set-alert"><a href="">Set Price</a></td> 
                     pricesTd = alert
                     netTd = alert
                     totalTd = alert
@@ -42,7 +42,7 @@ let ProductList = (props) => {
                       </td>
                       {totalTd}
                       <td className="remove-item">
-                        <a href="#">
+                        <a href="">
                           Remove Item
                         </a>
                       </td>                      

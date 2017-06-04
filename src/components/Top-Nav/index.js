@@ -29,7 +29,7 @@ class TopNav extends Component {
               Edit ORD07070707 
             </div>
             <div className="column small-3">
-              <a href="#">
+              <a href="">
                 <img src={magnifyingGlass} className="icon magnifying-glass" alt="magnifying-glass"/>
               </a>  
             </div>
@@ -41,22 +41,22 @@ class TopNav extends Component {
 
             <ul className="dropdown menu" data-dropdown-menu>          
               <li id="top-nav-select-wrapper">
-                <select id="top-nav-select">
-                  <option  value="" selected disabled>English (US)</option>
+                <select id="top-nav-select" defaultValue="placeholder">
+                  <option  value="placeholder">English (US)</option>
                   <option value="">Starbuck</option>
                   <option value="">Hot Dog</option>
                   <option value="">Apollo</option>
                 </select>
               </li>          
               <li id="top-nav-dropdown">
-                  <a href="#">                  
+                  <a href="">                  
                     <span><div id="profile-name">Hello Steve</div></span>
                     <span>Demo Shop</span>
                   </a>
                   <ul className="menu vertical">
-                    <li><a href="#">menu1</a></li>
-                    <li><a href="#">menu2</a></li>
-                    <li><a href="#">menu3</a></li>
+                    <li><a href="">menu1</a></li>
+                    <li><a href="">menu2</a></li>
+                    <li><a href="">menu3</a></li>
                   </ul>
               </li>
               

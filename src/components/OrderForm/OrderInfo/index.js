@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 let getOrderActions = (isForSmall) => {
     let visibility = (isForSmall) ? 'show-for-small-only' : 'hide-for-small-only'
 
     let OrderActions = <div id="order-actions" className={`columns small-12 medium-3 ${visibility}`}> 
-        <a href="#" className="button column small-5 show-for-small-only">Update Order</a>                
+        <a href="" className="button column small-5 show-for-small-only">Update Order</a>                
         <div className="row align-spaced hide-for-small-only">
-          <a href="#" className="back column medium-3">Back</a>
-          <a href="#" className="button column small-4 medium-7">Update Order</a>
+          <a href="" className="back column medium-3">Back</a>
+          <a href="" className="button column small-4 medium-7">Update Order</a>
         </div>
     </div>
 
@@ -17,8 +17,8 @@ let getOrderActions = (isForSmall) => {
 
   let getRandomSelect = (placeholder) => {
     return (
-      <select>
-        <option value="" selected disabled>{placeholder}</option>
+      <select defaultValue="placeholder">
+        <option value="placeholder">{placeholder}</option>
         <option value="starbuck">Starbuck</option>
         <option value="hotdog">Hot Dog</option>
         <option value="apollo">Apollo</option>

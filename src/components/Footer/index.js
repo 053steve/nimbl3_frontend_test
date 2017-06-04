@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import logoFooter from '../../assets/icons/poweredby.svg'
 
 // Adding styling here becuase not sure why the scss for footer aint working :(

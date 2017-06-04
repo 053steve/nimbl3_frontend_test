@@ -92,7 +92,7 @@ class Sidebar extends Component {
               }               
 
               let li =  <li key={obj.iconSrc} className={isActive}>
-                          <a href="#" className="">
+                          <a href="" className="">
                             <div className="sidebar-list-wrapper">
                               <img src={obj.iconSrc} className='icon' alt=""/>
                               <span className="app-dashboard-sidebar-text">{obj.link_title}</span>  
