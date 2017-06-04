@@ -22,7 +22,7 @@ class TopNav extends Component {
           <div className="show-for-small-only row">
             <div className="column small-3">
               <a href="" onClick={this.navtopMenuEvent.bind(this)}>
-                <img src={arrowGrey} className="icon arrowGrey" alt="arrowGrey"/>
+                <img src={arrowGrey} className="icon arrow-grey" alt="arrow-grey"/>
               </a>
             </div>
             <div id="title-bar-small" className="column small-6">
@@ -30,7 +30,7 @@ class TopNav extends Component {
             </div>
             <div className="column small-3">
               <a href="#">
-                <img src={magnifyingGlass} className="icon magnifyingGlass" alt="magnifyingGlass"/>
+                <img src={magnifyingGlass} className="icon magnifying-glass" alt="magnifying-glass"/>
               </a>  
             </div>
           </div>

@@ -47,7 +47,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    $(document).foundation()
+    $(document).foundation() //Must use jquery to invoke inside react
   }
 
   render() {

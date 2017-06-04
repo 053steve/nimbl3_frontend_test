@@ -7,7 +7,7 @@ import { toggle_menu } from '../../actions'
 
 //logos------------------
 import logo from '../../assets/icons/logo-white.svg'
-import logo_footer from '../../assets/icons/poweredby.svg'
+import logoFooter from '../../assets/icons/poweredby.svg'
 
 //icons
 import controlsPurple from '../../assets/icons/controls-purple.svg'
@@ -107,7 +107,7 @@ class Sidebar extends Component {
           </ul>
         </div>
         <div className="app-dashboard-sidebar-footer">
-          <img src={logo_footer} className="icon logo_footer" alt="logo_footer"/>
+          <img src={logoFooter} className="icon logo-footer" alt="logo-footer"/>
         </div>
       </div>
     );
